@@ -1,0 +1,6 @@
+
+
+1.0b : Fix bug to connect RGB led to + (and not GND)
+
+Increase size of pad of the touch switch
+
