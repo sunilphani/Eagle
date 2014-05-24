@@ -5634,6 +5634,7 @@ Source: YH-55-10.pdf</description>
 <rectangle x1="-3.42" y1="3.8" x2="-2.93" y2="5.32" layer="51"/>
 <rectangle x1="-4.69" y1="3.8" x2="-4.2" y2="5.32" layer="51"/>
 <rectangle x1="-5.96" y1="3.8" x2="-5.47" y2="5.32" layer="51"/>
+<circle x="-5.08" y="-1.905" radius="0.635" width="0.127" layer="21"/>
 </package>
 <package name="SZ05-ZIGBEE">
 <wire x1="-13.8952" y1="30.021" x2="13.4048" y2="30.021" width="0.127" layer="21"/>

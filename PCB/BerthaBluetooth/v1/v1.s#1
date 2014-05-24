@@ -10842,7 +10842,7 @@ Source: www.cypressindustries.com</description>
 <part name="R" library="rcl" deviceset="R-EU_" device="R0805" value="1k"/>
 <part name="P+8" library="supply1" deviceset="+12V" device=""/>
 <part name="LED2" library="lpatiny" deviceset="LED3MM" device="" value="Blue"/>
-<part name="R25" library="rcl" deviceset="R-EU_" device="R0805" value="RJ12"/>
+<part name="R25" library="rcl" deviceset="R-EU_" device="R0805" value="1k"/>
 <part name="LED3" library="adafruit" deviceset="LED" device="CHIP-LED0805" value="RED"/>
 <part name="R27" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
 <part name="C5" library="rcl" deviceset="C-EU" device="C1206" value="10uF"/>
@@ -10857,10 +10857,10 @@ Source: www.cypressindustries.com</description>
 <part name="J3" library="lpatiny" deviceset="RJ12" device="STRAIGHT" value="RJ12"/>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY7" library="supply1" deviceset="+5V" device=""/>
-<part name="R33" library="rcl" deviceset="R-EU_" device="R0805" value="RJ12"/>
+<part name="R33" library="rcl" deviceset="R-EU_" device="R0805" value="1k"/>
 <part name="P+13" library="supply1" deviceset="+12V" device=""/>
 <part name="LED6" library="lpatiny" deviceset="LED3MM" device="" value="Blue"/>
-<part name="R5" library="rcl" deviceset="R-EU_" device="R0805" value="RJ12"/>
+<part name="R5" library="rcl" deviceset="R-EU_" device="R0805" value="1k"/>
 <part name="J4" library="lpatiny" deviceset="RJ12" device="STRAIGHT" value="RJ12"/>
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY8" library="supply1" deviceset="+5V" device=""/>
@@ -10906,11 +10906,11 @@ Source: www.cypressindustries.com</description>
 <part name="RL1" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
 <part name="RL7" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
-<part name="Q1" library="infineon" deviceset="BSP613P" device=""/>
-<part name="Q2" library="infineon" deviceset="BSP613P" device=""/>
-<part name="Q4" library="infineon" deviceset="BSP613P" device=""/>
-<part name="Q5" library="infineon" deviceset="BSP613P" device=""/>
-<part name="Q6" library="infineon" deviceset="BSP613P" device=""/>
+<part name="Q1" library="infineon" deviceset="BSP613P" device="" value="BSP75"/>
+<part name="Q2" library="infineon" deviceset="BSP613P" device="" value="BSP75"/>
+<part name="Q4" library="infineon" deviceset="BSP613P" device="" value="BSP75"/>
+<part name="Q5" library="infineon" deviceset="BSP613P" device="" value="BSP75"/>
+<part name="Q6" library="infineon" deviceset="BSP613P" device="" value="BSP75"/>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
 <part name="+5VA2" library="supply1" deviceset="+5V" device=""/>
 <part name="U$4" library="adafruit" deviceset="ATMEGA32U4" device="-AU"/>
@@ -10935,7 +10935,7 @@ Source: www.cypressindustries.com</description>
 <part name="SUPPLY3" library="supply2" deviceset="+5V/1" device=""/>
 <part name="SUPPLY4" library="supply2" deviceset="+5V/1" device=""/>
 <part name="P+11" library="supply1" deviceset="+5V" device=""/>
-<part name="X4" library="con-cypressindustries" deviceset="MINI-USB-SCHIELD-" device="32005-201"/>
+<part name="X4" library="con-cypressindustries" deviceset="MINI-USB-SCHIELD-" device="32005-201" value="MINI-USB"/>
 <part name="R24" library="resistor" deviceset="R-EU_" device="M1206" value="22"/>
 <part name="R31" library="resistor" deviceset="R-EU_" device="M1206" value="22"/>
 <part name="C7" library="rcl" deviceset="C-EU" device="C1206" value="10uF"/>
@@ -10960,15 +10960,15 @@ Source: www.cypressindustries.com</description>
 <part name="P+5" library="supply1" deviceset="+12V" device=""/>
 <part name="LED1" library="lpatiny" deviceset="LED3MM" device="" value="Blue"/>
 <part name="R20" library="rcl" deviceset="R-EU_" device="R0805" value="1k"/>
-<part name="Q3" library="infineon" deviceset="BSP613P" device=""/>
+<part name="Q3" library="infineon" deviceset="BSP613P" device="" value="BSP75"/>
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
 <part name="RGB-J1" library="lpatiny" deviceset="RJ12" device="STRAIGHT-RGB" value="RJ12"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="P+41" library="supply1" deviceset="+5V" device=""/>
 <part name="P+42" library="supply1" deviceset="+12V" device=""/>
-<part name="Q8" library="infineon" deviceset="BSP613P" device=""/>
-<part name="Q9" library="infineon" deviceset="BSP613P" device=""/>
-<part name="Q10" library="infineon" deviceset="BSP613P" device=""/>
+<part name="Q8" library="infineon" deviceset="BSP613P" device="" value="BSP75"/>
+<part name="Q9" library="infineon" deviceset="BSP613P" device="" value="BSP75"/>
+<part name="Q10" library="infineon" deviceset="BSP613P" device="" value="BSP75"/>
 <part name="GND33" library="supply1" deviceset="GND" device=""/>
 <part name="GND34" library="supply1" deviceset="GND" device=""/>
 <part name="GND35" library="supply1" deviceset="GND" device=""/>

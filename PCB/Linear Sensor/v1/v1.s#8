@@ -10412,11 +10412,15 @@ Source: www.cypressindustries.com</description>
 <pinref part="P+11" gate="1" pin="+5V"/>
 <wire x1="0" y1="289.56" x2="-2.54" y2="289.56" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="G$1" pin="1"/>
+<junction x="0" y="289.56"/>
 </segment>
 <segment>
 <pinref part="+5VA2" gate="1" pin="+5V"/>
 <wire x1="55.88" y1="276.86" x2="55.88" y2="279.4" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="279.4" x2="55.88" y2="292.1" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="G$1" pin="2"/>
+<junction x="55.88" y="292.1"/>
+<junction x="55.88" y="276.86"/>
 </segment>
 </net>
 <net name="GND" class="1">
@@ -10446,6 +10450,7 @@ Source: www.cypressindustries.com</description>
 <wire x1="0" y1="287.02" x2="-2.54" y2="287.02" width="0.1524" layer="91"/>
 <pinref part="GND25" gate="1" pin="GND"/>
 <pinref part="JP1" gate="G$1" pin="2"/>
+<junction x="0" y="287.02"/>
 </segment>
 <segment>
 <pinref part="C11" gate="G$1" pin="2"/>
@@ -10873,9 +10878,12 @@ Source: www.cypressindustries.com</description>
 </net>
 <net name="N$34" class="0">
 <segment>
-<wire x1="53.34" y1="266.7" x2="53.34" y2="292.1" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="266.7" x2="53.34" y2="269.24" width="0.1524" layer="91"/>
 <pinref part="Q1" gate="G$1" pin="D@1"/>
 <pinref part="JP2" gate="G$1" pin="1"/>
+<junction x="53.34" y="292.1"/>
+<junction x="53.34" y="269.24"/>
+<wire x1="53.34" y1="269.24" x2="53.34" y2="292.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SCL" class="0">

@@ -10466,7 +10466,7 @@ Source: www.kingbright.com</description>
 <part name="RL1" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
 <part name="RL7" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
-<part name="Q1" library="infineon" deviceset="BSP613P" device=""/>
+<part name="Q1" library="infineon" deviceset="BSP613P" device="" value="BSP75"/>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
 <part name="+5VA2" library="supply1" deviceset="+5V" device=""/>
 <part name="U$4" library="adafruit" deviceset="ATMEGA32U4" device="-AU" value="32U4"/>

@@ -11324,6 +11324,7 @@ Source: www.kingbright.com</description>
 <pinref part="C4" gate="G$1" pin="2"/>
 <wire x1="205.74" y1="251.46" x2="193.04" y2="251.46" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="251.46" x2="193.04" y2="248.92" width="0.1524" layer="91"/>
+<junction x="205.74" y="251.46"/>
 </segment>
 </net>
 <net name="D8*" class="0">
@@ -11357,11 +11358,9 @@ Source: www.kingbright.com</description>
 </sheet>
 </sheets>
 <errors>
-<approved hash="202,1,-27.94,162.56,X4,4,,,,"/>
-<approved hash="202,1,-7.62,71.12,U$2,EN1,,,,"/>
-<approved hash="202,1,15.24,63.5,U$2,EN2,,,,"/>
-<approved hash="202,1,15.24,78.74,U$2,EN4,,,,"/>
-<approved hash="202,1,15.24,71.12,U$2,EN3,,,,"/>
+<approved hash="104,1,213.36,251.46,U$2,VDD,+5V/1,,,"/>
+<approved hash="104,1,213.36,241.3,U$2,GND1,GND,,,"/>
+<approved hash="104,1,236.22,246.38,U$2,GND2,GND,,,"/>
 </errors>
 </schematic>
 </drawing>

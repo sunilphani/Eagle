@@ -10454,14 +10454,14 @@ Source: www.kingbright.com</description>
 <part name="CON1" library="lpatiny" deviceset="TINYISP" device="T" value="SPI"/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="C10" library="rcl" deviceset="C-EU" device="C1206" value="10uF"/>
-<part name="D2" library="lpatiny" deviceset="1N581*" device="D1206" value="1N581D1206"/>
+<part name="D2" library="lpatiny" deviceset="1N581*" device="D1206" value="1N581"/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="LED4" library="led" deviceset="LED" device="CHIP-LED0805" value="RED"/>
 <part name="RL4" library="resistor" deviceset="R-EU_" device="R0805" value="1K"/>
-<part name="D3" library="lpatiny" deviceset="1N581*" device="D1206" value="1N581D1206"/>
+<part name="D3" library="lpatiny" deviceset="1N581*" device="D1206" value="1N581"/>
 <part name="U$7" library="MyPOW" deviceset="VUSB" device=""/>
 <part name="C12" library="rcl" deviceset="C-EU" device="C1206" value="100nF"/>
-<part name="D4" library="lpatiny" deviceset="1N581*" device="D1206" value="1N581D1206"/>
+<part name="D4" library="lpatiny" deviceset="1N581*" device="D1206" value="1N581"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="RL1" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
 <part name="RL7" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
@@ -10480,7 +10480,7 @@ Source: www.kingbright.com</description>
 <part name="GND31" library="supply1" deviceset="GND" device=""/>
 <part name="U$8" library="MyPOW" deviceset="VUSB" device=""/>
 <part name="P+4" library="SparkFun" deviceset="3.3V" device=""/>
-<part name="D5" library="lpatiny" deviceset="1N581*" device="D1206" value="1N581D1206"/>
+<part name="D5" library="lpatiny" deviceset="1N581*" device="D1206" value="1N581"/>
 <part name="R3" library="resistor" deviceset="R-EU_" device="M0805" value="10k"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="R15" library="resistor" deviceset="R-EU_" device="M0805" value="10k"/>
