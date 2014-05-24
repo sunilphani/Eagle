@@ -10469,7 +10469,7 @@ Source: www.kingbright.com</description>
 <part name="Q1" library="infineon" deviceset="BSP613P" device=""/>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
 <part name="+5VA2" library="supply1" deviceset="+5V" device=""/>
-<part name="U$4" library="adafruit" deviceset="ATMEGA32U4" device="-AU"/>
+<part name="U$4" library="adafruit" deviceset="ATMEGA32U4" device="-AU" value="32U4"/>
 <part name="GND28" library="supply1" deviceset="GND" device=""/>
 <part name="RESET1" library="lpatiny" deviceset="TAC_SWITCH" device="SMD" value="Reset uC"/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
@@ -10491,7 +10491,7 @@ Source: www.kingbright.com</description>
 <part name="SUPPLY3" library="supply2" deviceset="+5V/1" device=""/>
 <part name="SUPPLY4" library="supply2" deviceset="+5V/1" device=""/>
 <part name="P+11" library="supply1" deviceset="+5V" device=""/>
-<part name="X4" library="con-cypressindustries" deviceset="MINI-USB-SCHIELD-" device="32005-201"/>
+<part name="X4" library="con-cypressindustries" deviceset="MINI-USB-SCHIELD-" device="32005-201" value="MINI-USB"/>
 <part name="R24" library="resistor" deviceset="R-EU_" device="M1206" value="22"/>
 <part name="R31" library="resistor" deviceset="R-EU_" device="M1206" value="22"/>
 <part name="C7" library="rcl" deviceset="C-EU" device="C1206" value="10uF"/>
@@ -10508,8 +10508,8 @@ Source: www.kingbright.com</description>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="C4" library="rcl" deviceset="C-EU" device="C1206" value="100nF"/>
-<part name="LED1" library="led" deviceset="LED" device="CHIP-LED0805"/>
-<part name="LED2" library="led" deviceset="LED" device="CHIP-LED0805"/>
+<part name="LED1" library="led" deviceset="LED" device="CHIP-LED0805" value="GREEN"/>
+<part name="LED2" library="led" deviceset="LED" device="CHIP-LED0805" value="GREEN"/>
 </parts>
 <sheets>
 <sheet>
@@ -11324,6 +11324,7 @@ Source: www.kingbright.com</description>
 <pinref part="C4" gate="G$1" pin="2"/>
 <wire x1="205.74" y1="251.46" x2="193.04" y2="251.46" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="251.46" x2="193.04" y2="248.92" width="0.1524" layer="91"/>
+<junction x="205.74" y="251.46"/>
 </segment>
 </net>
 <net name="D8*" class="0">
@@ -11357,11 +11358,9 @@ Source: www.kingbright.com</description>
 </sheet>
 </sheets>
 <errors>
-<approved hash="202,1,-27.94,162.56,X4,4,,,,"/>
-<approved hash="202,1,-7.62,71.12,U$2,EN1,,,,"/>
-<approved hash="202,1,15.24,63.5,U$2,EN2,,,,"/>
-<approved hash="202,1,15.24,78.74,U$2,EN4,,,,"/>
-<approved hash="202,1,15.24,71.12,U$2,EN3,,,,"/>
+<approved hash="104,1,213.36,251.46,U$2,VDD,+5V/1,,,"/>
+<approved hash="104,1,213.36,241.3,U$2,GND1,GND,,,"/>
+<approved hash="104,1,236.22,246.38,U$2,GND2,GND,,,"/>
 </errors>
 </schematic>
 </drawing>

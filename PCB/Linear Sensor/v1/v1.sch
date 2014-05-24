@@ -10454,14 +10454,14 @@ Source: www.kingbright.com</description>
 <part name="CON1" library="lpatiny" deviceset="TINYISP" device="T" value="SPI"/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="C10" library="rcl" deviceset="C-EU" device="C1206" value="10uF"/>
-<part name="D2" library="lpatiny" deviceset="1N581*" device="D1206" value="1N581D1206"/>
+<part name="D2" library="lpatiny" deviceset="1N581*" device="D1206" value="1N581"/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="LED4" library="led" deviceset="LED" device="CHIP-LED0805" value="RED"/>
 <part name="RL4" library="resistor" deviceset="R-EU_" device="R0805" value="1K"/>
-<part name="D3" library="lpatiny" deviceset="1N581*" device="D1206" value="1N581D1206"/>
+<part name="D3" library="lpatiny" deviceset="1N581*" device="D1206" value="1N581"/>
 <part name="U$7" library="MyPOW" deviceset="VUSB" device=""/>
 <part name="C12" library="rcl" deviceset="C-EU" device="C1206" value="100nF"/>
-<part name="D4" library="lpatiny" deviceset="1N581*" device="D1206" value="1N581D1206"/>
+<part name="D4" library="lpatiny" deviceset="1N581*" device="D1206" value="1N581"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="RL1" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
 <part name="RL7" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
@@ -10469,7 +10469,7 @@ Source: www.kingbright.com</description>
 <part name="Q1" library="infineon" deviceset="BSP613P" device=""/>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
 <part name="+5VA2" library="supply1" deviceset="+5V" device=""/>
-<part name="U$4" library="adafruit" deviceset="ATMEGA32U4" device="-AU"/>
+<part name="U$4" library="adafruit" deviceset="ATMEGA32U4" device="-AU" value="32U4"/>
 <part name="GND28" library="supply1" deviceset="GND" device=""/>
 <part name="RESET1" library="lpatiny" deviceset="TAC_SWITCH" device="SMD" value="Reset uC"/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
@@ -10480,7 +10480,7 @@ Source: www.kingbright.com</description>
 <part name="GND31" library="supply1" deviceset="GND" device=""/>
 <part name="U$8" library="MyPOW" deviceset="VUSB" device=""/>
 <part name="P+4" library="SparkFun" deviceset="3.3V" device=""/>
-<part name="D5" library="lpatiny" deviceset="1N581*" device="D1206" value="1N581D1206"/>
+<part name="D5" library="lpatiny" deviceset="1N581*" device="D1206" value="1N581"/>
 <part name="R3" library="resistor" deviceset="R-EU_" device="M0805" value="10k"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="R15" library="resistor" deviceset="R-EU_" device="M0805" value="10k"/>
@@ -10491,7 +10491,7 @@ Source: www.kingbright.com</description>
 <part name="SUPPLY3" library="supply2" deviceset="+5V/1" device=""/>
 <part name="SUPPLY4" library="supply2" deviceset="+5V/1" device=""/>
 <part name="P+11" library="supply1" deviceset="+5V" device=""/>
-<part name="X4" library="con-cypressindustries" deviceset="MINI-USB-SCHIELD-" device="32005-201"/>
+<part name="X4" library="con-cypressindustries" deviceset="MINI-USB-SCHIELD-" device="32005-201" value="MINI-USB"/>
 <part name="R24" library="resistor" deviceset="R-EU_" device="M1206" value="22"/>
 <part name="R31" library="resistor" deviceset="R-EU_" device="M1206" value="22"/>
 <part name="C7" library="rcl" deviceset="C-EU" device="C1206" value="10uF"/>
@@ -10508,8 +10508,8 @@ Source: www.kingbright.com</description>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="C4" library="rcl" deviceset="C-EU" device="C1206" value="100nF"/>
-<part name="LED1" library="led" deviceset="LED" device="CHIP-LED0805"/>
-<part name="LED2" library="led" deviceset="LED" device="CHIP-LED0805"/>
+<part name="LED1" library="led" deviceset="LED" device="CHIP-LED0805" value="GREEN"/>
+<part name="LED2" library="led" deviceset="LED" device="CHIP-LED0805" value="GREEN"/>
 </parts>
 <sheets>
 <sheet>
