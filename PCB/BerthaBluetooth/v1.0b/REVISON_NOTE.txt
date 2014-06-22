@@ -4,3 +4,7 @@
 
 Increase size of pad of the touch switch
 
+Move D2 and D5 to make them closer to their target
+
+Change side of resistor to be close to memory
+
