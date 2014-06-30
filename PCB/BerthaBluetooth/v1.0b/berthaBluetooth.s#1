@@ -10834,12 +10834,12 @@ Source: www.cypressindustries.com</description>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="P+3" library="SparkFun" deviceset="3.3V" device=""/>
-<part name="R1" library="rcl" deviceset="R-EU_" device="R1206" value="10k"/>
+<part name="R1" library="rcl" deviceset="R-EU_" device="R0805" value="10k"/>
 <part name="P+6" library="SparkFun" deviceset="3.3V" device=""/>
-<part name="R16" library="rcl" deviceset="R-EU_" device="R1206" value="10k"/>
+<part name="R16" library="rcl" deviceset="R-EU_" device="R0805" value="10k"/>
 <part name="P+7" library="SparkFun" deviceset="3.3V" device=""/>
 <part name="R17" library="rcl" deviceset="R-EU_" device="R0805" value="1k"/>
-<part name="R18" library="rcl" deviceset="R-EU_" device="R1206" value="10k"/>
+<part name="R18" library="rcl" deviceset="R-EU_" device="R0805" value="10k"/>
 <part name="R" library="rcl" deviceset="R-EU_" device="R0805" value="1k"/>
 <part name="P+8" library="supply1" deviceset="+12V" device=""/>
 <part name="LED2" library="lpatiny" deviceset="LED3MM" device="" value="Blue"/>

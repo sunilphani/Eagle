@@ -10977,7 +10977,6 @@ Source: www.cypressindustries.com</description>
 <part name="RL8" library="resistor" deviceset="R-EU_" device="M0805" value="1K"/>
 <part name="RL9" library="resistor" deviceset="R-EU_" device="M0805" value="1K"/>
 <part name="RGB_5-6-11" library="lpatiny" deviceset="TOPLED-3" device=""/>
-<part name="GND37" library="supply1" deviceset="GND" device=""/>
 <part name="I2C-J4" library="lpatiny" deviceset="RJ12" device="STRAIGHT-I2C" value="RJ12STRAIGHT-I2C"/>
 <part name="U$2" library="lpatiny" deviceset="PCA9518" device=""/>
 <part name="I2C-J3" library="lpatiny" deviceset="RJ12" device="STRAIGHT-I2C" value="RJ12STRAIGHT-I2C"/>
@@ -11017,6 +11016,7 @@ Source: www.cypressindustries.com</description>
 <part name="GND39" library="supply1" deviceset="GND" device=""/>
 <part name="P+16" library="SparkFun" deviceset="3.3V" device=""/>
 <part name="P+22" library="SparkFun" deviceset="3.3V" device=""/>
+<part name="SUPPLY2" library="supply1" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11221,7 +11221,6 @@ Source: www.cypressindustries.com</description>
 <attribute name="VALUE" x="367.03" y="269.367" size="1.016" layer="96" rot="MR180"/>
 </instance>
 <instance part="RGB_5-6-11" gate="G$1" x="375.92" y="274.32" rot="R270"/>
-<instance part="GND37" gate="1" x="383.54" y="269.24"/>
 <instance part="I2C-J4" gate="G$1" x="-71.12" y="25.4"/>
 <instance part="U$2" gate="G$1" x="2.54" y="73.66"/>
 <instance part="I2C-J3" gate="G$1" x="-71.12" y="43.18"/>
@@ -11295,6 +11294,7 @@ Source: www.cypressindustries.com</description>
 <instance part="GND39" gate="1" x="459.74" y="109.22"/>
 <instance part="P+16" gate="G$1" x="-53.34" y="294.64"/>
 <instance part="P+22" gate="G$1" x="22.86" y="96.52"/>
+<instance part="SUPPLY2" gate="1" x="383.54" y="269.24" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -11449,6 +11449,12 @@ Source: www.cypressindustries.com</description>
 <pinref part="P+10" gate="1" pin="+5V"/>
 <wire x1="518.16" y1="121.92" x2="535.94" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="535.94" y1="121.92" x2="535.94" y2="124.46" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="383.54" y1="279.4" x2="381" y2="279.4" width="0.1524" layer="91"/>
+<pinref part="RGB_5-6-11" gate="G$1" pin="A2"/>
+<pinref part="SUPPLY2" gate="1" pin="+5V"/>
+<wire x1="383.54" y1="279.4" x2="383.54" y2="271.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="1">
@@ -11722,12 +11728,6 @@ Source: www.cypressindustries.com</description>
 <wire x1="365.76" y1="243.84" x2="365.76" y2="241.3" width="0.1524" layer="91"/>
 <junction x="365.76" y="243.84"/>
 <junction x="365.76" y="241.3"/>
-</segment>
-<segment>
-<wire x1="383.54" y1="279.4" x2="381" y2="279.4" width="0.1524" layer="91"/>
-<wire x1="383.54" y1="271.78" x2="383.54" y2="279.4" width="0.1524" layer="91"/>
-<pinref part="RGB_5-6-11" gate="G$1" pin="A2"/>
-<pinref part="GND37" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="GND8" gate="1" pin="GND"/>
