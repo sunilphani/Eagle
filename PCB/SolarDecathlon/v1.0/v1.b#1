@@ -6857,9 +6857,6 @@ design rules under a new name.</description>
 <contactref element="U1" pad="2"/>
 <wire x1="83.69" y1="30.48" x2="83.89" y2="33.645" width="0" layer="19" extent="1-16"/>
 </signal>
-<signal name="CTRL_GND">
-<contactref element="C6" pad="2"/>
-</signal>
 <signal name="N$8" class="1">
 <contactref element="U$3" pad="GND"/>
 <contactref element="JP6" pad="1"/>
@@ -6883,13 +6880,6 @@ design rules under a new name.</description>
 <wire x1="35.331" y1="22.301" x2="49.403" y2="39.37" width="0" layer="19" extent="1-1"/>
 <wire x1="69.139" y1="10.16" x2="63.627" y2="39.37" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="$2">
-<contactref element="JP4" pad="1"/>
-<contactref element="U$2" pad="2"/>
-<contactref element="C4" pad="2"/>
-<wire x1="59.1566" y1="33.02" x2="63.63" y2="34.29" width="0" layer="19" extent="1-16"/>
-<wire x1="60.833" y1="39.37" x2="59.1566" y2="33.02" width="0" layer="19" extent="1-1"/>
-</signal>
 <signal name="$3">
 <contactref element="JP5" pad="1"/>
 <contactref element="U$5" pad="5"/>
@@ -6910,6 +6900,15 @@ design rules under a new name.</description>
 <contactref element="JP6" pad="2"/>
 <contactref element="Q5" pad="2"/>
 <wire x1="33.02" y1="22.301" x2="59.563" y2="3.81" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="$2">
+<contactref element="C6" pad="2"/>
+<contactref element="JP4" pad="1"/>
+<contactref element="U$2" pad="2"/>
+<contactref element="C4" pad="2"/>
+<wire x1="63.63" y1="34.29" x2="60.833" y2="39.37" width="0" layer="19" extent="16-16"/>
+<wire x1="63.63" y1="30.48" x2="63.63" y2="34.29" width="0" layer="19" extent="16-16"/>
+<wire x1="59.1566" y1="33.02" x2="63.63" y2="34.29" width="0" layer="19" extent="1-16"/>
 </signal>
 </signals>
 </board>
