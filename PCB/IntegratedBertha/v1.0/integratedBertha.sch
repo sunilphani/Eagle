@@ -10944,15 +10944,15 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/37793330023930AD620_e.pd
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.3048" drill="0">
+<class number="0" name="default" width="0.3556" drill="0">
 </class>
 <class number="1" name="power" width="0.4572" drill="0">
 </class>
 <class number="2" name="VIN" width="0.4572" drill="0">
 </class>
-<class number="3" name="fine" width="0.3048" drill="0">
+<class number="3" name="fine" width="0.3556" drill="0">
 </class>
-<class number="4" name="aref" width="0.3048" drill="0">
+<class number="4" name="aref" width="0.3556" drill="0">
 </class>
 </classes>
 <parts>
@@ -11066,15 +11066,6 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/37793330023930AD620_e.pd
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
-<part name="J6" library="lpatiny" deviceset="RJ12" device="STRAIGHT" value="RJ12"/>
-<part name="GND21" library="supply1" deviceset="GND" device=""/>
-<part name="SUPPLY1" library="supply1" deviceset="+5V" device=""/>
-<part name="R19" library="rcl" deviceset="R-EU_" device="R0805" value="1k"/>
-<part name="P+5" library="supply1" deviceset="+12V" device=""/>
-<part name="LED1" library="adafruit" deviceset="LED" device="CHIPLED_1206" value="Blue"/>
-<part name="R20" library="rcl" deviceset="R-EU_" device="R0805" value="1k"/>
-<part name="Q3" library="infineon" deviceset="BSP613P" device="" value="BSP75"/>
-<part name="GND26" library="supply1" deviceset="GND" device=""/>
 <part name="I2C-J4" library="lpatiny" deviceset="RJ12" device="STRAIGHT-I2C" value="RJ12STRAIGHT-I2C"/>
 <part name="R28" library="resistor" deviceset="R-EU_" device="M0805" value="10K"/>
 <part name="R29" library="resistor" deviceset="R-EU_" device="M0805" value="10K"/>
@@ -11115,12 +11106,18 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/37793330023930AD620_e.pd
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="X2" library="lpatiny" deviceset="22-23-2031" device="5.08S"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
-<part name="+5VA3" library="supply1" deviceset="+5V" device=""/>
 <part name="R10" library="resistor" deviceset="R-EU_" device="R1206" value="4.7k"/>
 <part name="X5" library="lpatiny" deviceset="22-23-2031" device="5.08S"/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
-<part name="+5VA4" library="supply1" deviceset="+5V" device=""/>
 <part name="R21" library="resistor" deviceset="R-EU_" device="R1206" value="4.7k"/>
+<part name="RL5" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
+<part name="GND21" library="supply1" deviceset="GND" device=""/>
+<part name="LED1" library="adafruit" deviceset="LED" device="CHIPLED_1206" value="GREEN"/>
+<part name="+5VA4" library="supply1" deviceset="+5V" device=""/>
+<part name="+5VA5" library="supply1" deviceset="+5V" device=""/>
+<part name="RL6" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
+<part name="RL8" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
+<part name="+5VA3" library="supply1" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11144,7 +11141,9 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/37793330023930AD620_e.pd
 <wire x1="-137.16" y1="345.44" x2="-137.16" y2="121.92" width="1.27" layer="94"/>
 <wire x1="-137.16" y1="121.92" x2="-137.16" y2="-15.24" width="1.27" layer="94"/>
 <wire x1="86.36" y1="121.92" x2="-137.16" y2="121.92" width="1.27" layer="94"/>
-<text x="45.72" y="17.78" size="1.778" layer="91">analog ????????????</text>
+<text x="-27.94" y="99.06" size="5.08" layer="91">PID</text>
+<text x="30.48" y="99.06" size="5.08" layer="91">One wire</text>
+<text x="0" y="35.56" size="5.08" layer="91">Weight</text>
 </plain>
 <instances>
 <instance part="J1" gate="G$1" x="55.88" y="294.64" rot="R90"/>
@@ -11263,15 +11262,6 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/37793330023930AD620_e.pd
 <instance part="GND16" gate="1" x="139.7" y="238.76"/>
 <instance part="GND17" gate="1" x="182.88" y="238.76"/>
 <instance part="GND18" gate="1" x="226.06" y="238.76"/>
-<instance part="J6" gate="G$1" x="271.78" y="294.64" rot="R90"/>
-<instance part="GND21" gate="1" x="289.56" y="289.56" rot="R90"/>
-<instance part="SUPPLY1" gate="1" x="281.94" y="284.48" rot="R270"/>
-<instance part="R19" gate="G$1" x="271.78" y="284.48" rot="R90"/>
-<instance part="P+5" gate="1" x="256.54" y="284.48" rot="R90"/>
-<instance part="LED1" gate="G$1" x="274.32" y="266.7" rot="R270"/>
-<instance part="R20" gate="G$1" x="276.86" y="279.4" rot="R90"/>
-<instance part="Q3" gate="G$1" x="266.7" y="248.92"/>
-<instance part="GND26" gate="1" x="269.24" y="238.76"/>
 <instance part="I2C-J4" gate="G$1" x="-71.12" y="25.4"/>
 <instance part="R28" gate="G$1" x="-91.44" y="33.02" smashed="yes" rot="MR270">
 <attribute name="NAME" x="-91.0336" y="34.29" size="1.016" layer="95" rot="MR270"/>
@@ -11325,19 +11315,27 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/37793330023930AD620_e.pd
 <instance part="X1" gate="-2" x="-25.4" y="12.7" rot="R180"/>
 <instance part="X1" gate="-3" x="-25.4" y="15.24" rot="R180"/>
 <instance part="X1" gate="-4" x="-25.4" y="17.78" rot="R180"/>
-<instance part="GND7" gate="1" x="-2.54" y="12.7"/>
+<instance part="GND7" gate="1" x="-2.54" y="15.24"/>
 <instance part="X2" gate="-1" x="45.72" y="86.36"/>
 <instance part="X2" gate="-2" x="45.72" y="83.82"/>
 <instance part="X2" gate="-3" x="45.72" y="81.28"/>
 <instance part="GND11" gate="1" x="38.1" y="78.74"/>
-<instance part="+5VA3" gate="1" x="27.94" y="81.28" rot="R180"/>
-<instance part="R10" gate="G$1" x="35.56" y="86.36" rot="R180"/>
+<instance part="R10" gate="G$1" x="33.02" y="86.36" rot="R180"/>
 <instance part="X5" gate="-1" x="45.72" y="66.04"/>
 <instance part="X5" gate="-2" x="45.72" y="63.5"/>
 <instance part="X5" gate="-3" x="45.72" y="60.96"/>
 <instance part="GND20" gate="1" x="38.1" y="58.42"/>
-<instance part="+5VA4" gate="1" x="27.94" y="60.96" rot="R180"/>
-<instance part="R21" gate="G$1" x="35.56" y="66.04" rot="R180"/>
+<instance part="R21" gate="G$1" x="33.02" y="66.04" rot="R180"/>
+<instance part="RL5" gate="G$1" x="-5.08" y="254" rot="MR180"/>
+<instance part="GND21" gate="1" x="-2.54" y="259.08" smashed="yes">
+<attribute name="VALUE" x="-4.445" y="257.175" size="1.27" layer="96"/>
+</instance>
+<instance part="LED1" gate="G$1" x="10.16" y="256.54" rot="R180"/>
+<instance part="+5VA4" gate="1" x="38.1" y="93.98"/>
+<instance part="+5VA5" gate="1" x="38.1" y="73.66"/>
+<instance part="RL6" gate="G$1" x="17.78" y="83.82" rot="MR180"/>
+<instance part="RL8" gate="G$1" x="17.78" y="63.5" rot="MR180"/>
+<instance part="+5VA3" gate="1" x="-17.78" y="7.62" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -11395,14 +11393,6 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/37793330023930AD620_e.pd
 <junction x="60.96" y="279.4"/>
 </segment>
 <segment>
-<pinref part="J6" gate="G$1" pin="5"/>
-<wire x1="276.86" y1="292.1" x2="276.86" y2="284.48" width="0.1524" layer="91"/>
-<wire x1="276.86" y1="284.48" x2="279.4" y2="284.48" width="0.1524" layer="91"/>
-<pinref part="SUPPLY1" gate="1" pin="+5V"/>
-<pinref part="R20" gate="G$1" pin="2"/>
-<junction x="276.86" y="284.48"/>
-</segment>
-<segment>
 <pinref part="I2C-J4" gate="G$1" pin="5"/>
 <wire x1="-73.66" y1="20.32" x2="-88.9" y2="20.32" width="0.1524" layer="91"/>
 <label x="-87.63" y="20.574" size="1.778" layer="95"/>
@@ -11437,36 +11427,35 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/37793330023930AD620_e.pd
 <wire x1="-99.06" y1="38.1" x2="-91.44" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="2.54" y1="22.86" x2="10.16" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="22.86" x2="27.94" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="22.86" x2="43.18" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="+V"/>
 <wire x1="10.16" y1="15.24" x2="10.16" y2="22.86" width="0.1524" layer="91"/>
-<junction x="10.16" y="22.86"/>
 <pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="27.94" y1="7.62" x2="27.94" y2="22.86" width="0.1524" layer="91"/>
 <junction x="27.94" y="22.86"/>
 <junction x="10.16" y="15.24"/>
 <pinref part="+5VA1" gate="1" pin="+5V"/>
-<pinref part="X1" gate="-4" pin="S"/>
-<wire x1="-22.86" y1="17.78" x2="2.54" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="17.78" x2="2.54" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="X2" gate="-2" pin="S"/>
-<pinref part="+5VA3" gate="1" pin="+5V"/>
-<wire x1="43.18" y1="83.82" x2="27.94" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="R10" gate="G$1" pin="2"/>
-<wire x1="30.48" y1="86.36" x2="27.94" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="86.36" x2="27.94" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="R21" gate="G$1" pin="1"/>
+<pinref part="X5" gate="-1" pin="S"/>
+<wire x1="38.1" y1="66.04" x2="43.18" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="66.04" x2="38.1" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="+5VA5" gate="1" pin="+5V"/>
+<junction x="38.1" y="71.12"/>
 </segment>
 <segment>
-<pinref part="X5" gate="-2" pin="S"/>
+<pinref part="R10" gate="G$1" pin="1"/>
+<pinref part="X2" gate="-1" pin="S"/>
+<wire x1="38.1" y1="86.36" x2="43.18" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="91.44" x2="38.1" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="+5VA4" gate="1" pin="+5V"/>
-<wire x1="43.18" y1="63.5" x2="27.94" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="R21" gate="G$1" pin="2"/>
-<wire x1="30.48" y1="66.04" x2="27.94" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="66.04" x2="27.94" y2="63.5" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="+5VA3" gate="1" pin="+5V"/>
+<pinref part="X1" gate="-1" pin="S"/>
+<wire x1="-17.78" y1="10.16" x2="-22.86" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="1">
@@ -11686,24 +11675,6 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/37793330023930AD620_e.pd
 <junction x="226.06" y="243.84"/>
 </segment>
 <segment>
-<pinref part="J6" gate="G$1" pin="6"/>
-<wire x1="279.4" y1="292.1" x2="279.4" y2="289.56" width="0.1524" layer="91"/>
-<pinref part="GND21" gate="1" pin="GND"/>
-<pinref part="J6" gate="G$1" pin="4"/>
-<wire x1="274.32" y1="292.1" x2="274.32" y2="289.56" width="0.1524" layer="91"/>
-<wire x1="274.32" y1="289.56" x2="279.4" y2="289.56" width="0.1524" layer="91"/>
-<junction x="287.02" y="289.56"/>
-<junction x="279.4" y="289.56"/>
-<wire x1="279.4" y1="289.56" x2="287.02" y2="289.56" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="Q3" gate="G$1" pin="S"/>
-<pinref part="GND26" gate="1" pin="GND"/>
-<wire x1="269.24" y1="241.3" x2="269.24" y2="243.84" width="0.1524" layer="91"/>
-<junction x="269.24" y="243.84"/>
-<junction x="269.24" y="241.3"/>
-</segment>
-<segment>
 <pinref part="GND8" gate="1" pin="GND"/>
 <pinref part="I2C-J4" gate="G$1" pin="6"/>
 <wire x1="-73.66" y1="17.78" x2="-93.98" y2="17.78" width="0.1524" layer="91"/>
@@ -11742,27 +11713,18 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/37793330023930AD620_e.pd
 <wire x1="15.24" y1="-15.24" x2="15.24" y2="-12.7" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="-12.7" x2="15.24" y2="-10.16" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="0" x2="48.26" y2="0" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="-12.7" x2="35.56" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="-12.7" x2="43.18" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="-12.7" x2="43.18" y2="-12.7" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="-12.7" x2="43.18" y2="0" width="0.1524" layer="91"/>
-<wire x1="10.16" y1="27.94" x2="35.56" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="27.94" x2="35.56" y2="-12.7" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="2"/>
 <wire x1="27.94" y1="0" x2="30.48" y2="0" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="0" x2="43.18" y2="0" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="2"/>
 <wire x1="30.48" y1="7.62" x2="30.48" y2="0" width="0.1524" layer="91"/>
 <junction x="30.48" y="0"/>
-<junction x="35.56" y="-12.7"/>
 <junction x="15.24" y="-12.7"/>
 <junction x="43.18" y="0"/>
 <junction x="10.16" y="-15.24"/>
 <pinref part="GND5" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="X1" gate="-3" pin="S"/>
-<wire x1="-22.86" y1="15.24" x2="-2.54" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="GND7" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="GND11" gate="1" pin="GND"/>
@@ -11773,6 +11735,18 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/37793330023930AD620_e.pd
 <pinref part="GND20" gate="1" pin="GND"/>
 <pinref part="X5" gate="-3" pin="S"/>
 <wire x1="38.1" y1="60.96" x2="43.18" y2="60.96" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="10.16" y1="261.62" x2="-2.54" y2="261.62" width="0.1524" layer="91"/>
+<pinref part="GND21" gate="1" pin="GND"/>
+<pinref part="LED1" gate="G$1" pin="C"/>
+<junction x="10.16" y="261.62"/>
+<junction x="-2.54" y="261.62"/>
+</segment>
+<segment>
+<pinref part="X1" gate="-4" pin="S"/>
+<pinref part="GND7" gate="1" pin="GND"/>
+<wire x1="-22.86" y1="17.78" x2="-2.54" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SCK" class="0">
@@ -11959,9 +11933,9 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/37793330023930AD620_e.pd
 <label x="256.54" y="88.9" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="R19" gate="G$1" pin="1"/>
-<wire x1="271.78" y1="279.4" x2="271.78" y2="274.32" width="0.1524" layer="91"/>
-<label x="271.78" y="274.32" size="1.778" layer="95" rot="R90"/>
+<pinref part="RL8" gate="G$1" pin="1"/>
+<wire x1="12.7" y1="63.5" x2="7.62" y2="63.5" width="0.1524" layer="91"/>
+<label x="7.62" y="63.5" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A1" class="0">
@@ -12027,10 +12001,9 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/37793330023930AD620_e.pd
 <label x="256.54" y="53.34" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="Q3" gate="G$1" pin="G"/>
-<wire x1="264.16" y1="246.38" x2="259.08" y2="246.38" width="0.1524" layer="91"/>
-<label x="259.08" y="243.84" size="1.778" layer="95"/>
-<junction x="264.16" y="246.38"/>
+<pinref part="RL6" gate="G$1" pin="1"/>
+<wire x1="12.7" y1="83.82" x2="7.62" y2="83.82" width="0.1524" layer="91"/>
+<label x="7.62" y="83.82" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="HWB" class="0">
@@ -12100,12 +12073,6 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/37793330023930AD620_e.pd
 <junction x="-20.32" y="281.94"/>
 <pinref part="U$6" gate="G$1" pin="+12V"/>
 <wire x1="0" y1="281.94" x2="-20.32" y2="281.94" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="J6" gate="G$1" pin="1"/>
-<wire x1="266.7" y1="292.1" x2="266.7" y2="284.48" width="0.1524" layer="91"/>
-<wire x1="266.7" y1="284.48" x2="259.08" y2="284.48" width="0.1524" layer="91"/>
-<pinref part="P+5" gate="1" pin="+12V"/>
 </segment>
 <segment>
 <pinref part="I2C-J4" gate="G$1" pin="1"/>
@@ -12344,6 +12311,10 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/37793330023930AD620_e.pd
 <wire x1="246.38" y1="68.58" x2="261.62" y2="68.58" width="0.1524" layer="91"/>
 <label x="256.54" y="68.58" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="RL2" gate="G$1" pin="1"/>
+<wire x1="-35.56" y1="71.12" x2="-45.72" y2="71.12" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$28" class="0">
 <segment>
@@ -12402,6 +12373,11 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/37793330023930AD620_e.pd
 <pinref part="U$4" gate="G$1" pin="PC7(ICP3/CLK0/OC4A)"/>
 <wire x1="246.38" y1="60.96" x2="261.62" y2="60.96" width="0.1524" layer="91"/>
 <label x="256.54" y="60.96" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="RL5" gate="G$1" pin="1"/>
+<wire x1="-10.16" y1="254" x2="-15.24" y2="254" width="0.1524" layer="91"/>
+<label x="-20.32" y="254" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$12" class="0">
@@ -12480,6 +12456,14 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/37793330023930AD620_e.pd
 <pinref part="U$4" gate="G$1" pin="PD6(T1/ADC9/!OC4D)"/>
 <wire x1="246.38" y1="30.48" x2="261.62" y2="30.48" width="0.1524" layer="91"/>
 <label x="256.54" y="30.48" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="53.34" y1="15.24" x2="30.48" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="R9" gate="G$1" pin="2"/>
+<pinref part="C6" gate="G$1" pin="1"/>
+<wire x1="30.48" y1="15.24" x2="22.86" y2="15.24" width="0.1524" layer="91"/>
+<junction x="30.48" y="15.24"/>
+<label x="48.26" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -12583,31 +12567,6 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/37793330023930AD620_e.pd
 <label x="200.66" y="157.48" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="R19" gate="G$1" pin="2"/>
-<pinref part="J6" gate="G$1" pin="3"/>
-<wire x1="271.78" y1="289.56" x2="271.78" y2="292.1" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$9" class="0">
-<segment>
-<pinref part="R20" gate="G$1" pin="1"/>
-<pinref part="LED1" gate="G$1" pin="A"/>
-<wire x1="276.86" y1="274.32" x2="276.86" y2="266.7" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$21" class="0">
-<segment>
-<pinref part="J6" gate="G$1" pin="2"/>
-<pinref part="LED1" gate="G$1" pin="C"/>
-<wire x1="269.24" y1="266.7" x2="269.24" y2="292.1" width="0.1524" layer="91"/>
-<wire x1="269.24" y1="266.7" x2="269.24" y2="254" width="0.1524" layer="91"/>
-<junction x="269.24" y="266.7"/>
-<pinref part="Q3" gate="G$1" pin="D@1"/>
-<junction x="269.24" y="254"/>
-</segment>
-</net>
 <net name="N$11" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="RX1"/>
@@ -12682,12 +12641,6 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/37793330023930AD620_e.pd
 <wire x1="-25.4" y1="71.12" x2="-20.32" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$31" class="0">
-<segment>
-<pinref part="RL2" gate="G$1" pin="1"/>
-<wire x1="-35.56" y1="71.12" x2="-45.72" y2="71.12" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$36" class="0">
 <segment>
 <pinref part="Q7" gate="G$1" pin="D"/>
@@ -12709,32 +12662,23 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/37793330023930AD620_e.pd
 <wire x1="-5.08" y1="-5.08" x2="2.54" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SIGN" class="0">
-<segment>
-<wire x1="53.34" y1="15.24" x2="30.48" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="R9" gate="G$1" pin="2"/>
-<pinref part="C6" gate="G$1" pin="1"/>
-<wire x1="30.48" y1="15.24" x2="22.86" y2="15.24" width="0.1524" layer="91"/>
-<junction x="30.48" y="15.24"/>
-</segment>
-</net>
-<net name="N$38" class="0">
+<net name="DIFF-" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="-"/>
-<wire x1="-12.7" y1="10.16" x2="-12.7" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="12.7" x2="-12.7" y2="-12.7" width="0.1524" layer="91"/>
 <wire x1="-12.7" y1="-12.7" x2="2.54" y2="-12.7" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="-12.7" x2="2.54" y2="-10.16" width="0.1524" layer="91"/>
-<pinref part="X1" gate="-1" pin="S"/>
-<wire x1="-22.86" y1="10.16" x2="-12.7" y2="10.16" width="0.1524" layer="91"/>
+<pinref part="X1" gate="-2" pin="S"/>
+<wire x1="-22.86" y1="12.7" x2="-12.7" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$39" class="0">
+<net name="DIFF+" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="+"/>
 <wire x1="2.54" y1="10.16" x2="-7.62" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="-7.62" y1="10.16" x2="-7.62" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="X1" gate="-2" pin="S"/>
-<wire x1="-22.86" y1="12.7" x2="-7.62" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="X1" gate="-3" pin="S"/>
+<wire x1="-22.86" y1="15.24" x2="-7.62" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="15.24" x2="-7.62" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$40" class="0">
@@ -12744,18 +12688,32 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/37793330023930AD620_e.pd
 <wire x1="22.86" y1="5.08" x2="22.86" y2="0" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$37" class="0">
+<net name="N$3" class="0">
 <segment>
-<pinref part="R10" gate="G$1" pin="1"/>
-<pinref part="X2" gate="-1" pin="S"/>
-<wire x1="40.64" y1="86.36" x2="43.18" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="RL5" gate="G$1" pin="2"/>
+<wire x1="10.16" y1="254" x2="0" y2="254" width="0.1524" layer="91"/>
+<pinref part="LED1" gate="G$1" pin="A"/>
+<junction x="10.16" y="254"/>
 </segment>
 </net>
-<net name="N$41" class="0">
+<net name="N$9" class="1">
 <segment>
-<pinref part="R21" gate="G$1" pin="1"/>
-<pinref part="X5" gate="-1" pin="S"/>
-<wire x1="40.64" y1="66.04" x2="43.18" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="X5" gate="-2" pin="S"/>
+<wire x1="43.18" y1="63.5" x2="27.94" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="R21" gate="G$1" pin="2"/>
+<wire x1="27.94" y1="66.04" x2="27.94" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="63.5" x2="22.86" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="RL8" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$21" class="1">
+<segment>
+<pinref part="X2" gate="-2" pin="S"/>
+<wire x1="43.18" y1="83.82" x2="27.94" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="R10" gate="G$1" pin="2"/>
+<wire x1="27.94" y1="86.36" x2="27.94" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="83.82" x2="22.86" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="RL6" gate="G$1" pin="2"/>
 </segment>
 </net>
 </nets>
