@@ -7732,7 +7732,6 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <class number="0" name="default" width="0.6096" drill="0">
 </class>
 <class number="1" name="gnd" width="0.6096" drill="0">
-<clearance class="1" value="1.016"/>
 </class>
 <class number="2" name="highpower" width="1.3716" drill="0">
 </class>
