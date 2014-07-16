@@ -8785,7 +8785,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <segment>
 <pinref part="U$1" gate="G$1" pin="VDD"/>
 <wire x1="-12.7" y1="-73.66" x2="-20.32" y2="-73.66" width="0.1524" layer="91"/>
-<label x="-17.78" y="-71.12" size="1.778" layer="95"/>
+<label x="-17.78" y="-73.66" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="5"/>
