@@ -12033,9 +12033,9 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/37793330023930AD620_e.pd
 <label x="256.54" y="53.34" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="RL6" gate="G$1" pin="1"/>
-<wire x1="12.7" y1="83.82" x2="7.62" y2="83.82" width="0.1524" layer="91"/>
-<label x="7.62" y="83.82" size="1.778" layer="95"/>
+<pinref part="Q2" gate="G$1" pin="G"/>
+<wire x1="91.44" y1="246.38" x2="86.36" y2="246.38" width="0.1524" layer="91"/>
+<label x="86.36" y="243.84" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="HWB" class="0">
@@ -12472,9 +12472,9 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/37793330023930AD620_e.pd
 <label x="256.54" y="76.2" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="R35" gate="G$1" pin="1"/>
-<wire x1="228.6" y1="279.4" x2="228.6" y2="274.32" width="0.1524" layer="91"/>
-<label x="228.6" y="274.32" size="1.778" layer="95" rot="R90"/>
+<pinref part="RL6" gate="G$1" pin="1"/>
+<wire x1="12.7" y1="83.82" x2="7.62" y2="83.82" width="0.1524" layer="91"/>
+<label x="7.62" y="83.82" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$16" class="0">
@@ -12575,9 +12575,9 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/37793330023930AD620_e.pd
 <label x="256.54" y="48.26" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="Q2" gate="G$1" pin="G"/>
-<wire x1="91.44" y1="246.38" x2="86.36" y2="246.38" width="0.1524" layer="91"/>
-<label x="86.36" y="243.84" size="1.778" layer="95"/>
+<pinref part="R35" gate="G$1" pin="1"/>
+<wire x1="228.6" y1="279.4" x2="228.6" y2="274.32" width="0.1524" layer="91"/>
+<label x="228.6" y="274.32" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="RESET" class="0">
