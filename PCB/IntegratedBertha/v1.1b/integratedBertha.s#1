@@ -11031,7 +11031,7 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/37793330023930AD620_e.pd
 <part name="Q6" library="infineon" deviceset="BSP613P" device="" value="BSP75"/>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
 <part name="+5VA2" library="supply1" deviceset="+5V" device=""/>
-<part name="U$4" library="adafruit" deviceset="ATMEGA32U4" device="-AU"/>
+<part name="U$4" library="adafruit" deviceset="ATMEGA32U4" device="-AU" value="ATMEGA32U4"/>
 <part name="GND28" library="supply1" deviceset="GND" device=""/>
 <part name="RESET1" library="lpatiny" deviceset="TAC_SWITCH" device="SMD" value="Reset uC"/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
