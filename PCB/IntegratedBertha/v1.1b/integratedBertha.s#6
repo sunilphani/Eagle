@@ -11031,7 +11031,7 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/37793330023930AD620_e.pd
 <part name="Q6" library="infineon" deviceset="BSP613P" device="" value="BSP75"/>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
 <part name="+5VA2" library="supply1" deviceset="+5V" device=""/>
-<part name="U$4" library="adafruit" deviceset="ATMEGA32U4" device="-AU"/>
+<part name="U$4" library="adafruit" deviceset="ATMEGA32U4" device="-AU" value="ATMEGA32U4"/>
 <part name="GND28" library="supply1" deviceset="GND" device=""/>
 <part name="RESET1" library="lpatiny" deviceset="TAC_SWITCH" device="SMD" value="Reset uC"/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
@@ -11119,6 +11119,9 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/37793330023930AD620_e.pd
 <part name="RL8" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
 <part name="+5VA3" library="supply1" deviceset="+5V" device=""/>
 <part name="C13" library="rcl" deviceset="C-EU" device="C1206" value="100nF"/>
+<part name="C14" library="rcl" deviceset="C-EU" device="C1206" value="100nF"/>
+<part name="C15" library="rcl" deviceset="C-EU" device="C1206" value="100nF"/>
+<part name="GND26" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11341,6 +11344,15 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/37793330023930AD620_e.pd
 <attribute name="NAME" x="-9.906" y="-3.429" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-3.556" y="-5.969" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="C14" gate="G$1" x="10.16" y="25.4" smashed="yes" rot="R90">
+<attribute name="NAME" x="13.589" y="23.114" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="16.129" y="29.464" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="C15" gate="G$1" x="17.78" y="-20.32" smashed="yes">
+<attribute name="NAME" x="15.494" y="-23.749" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="21.844" y="-26.289" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND26" gate="1" x="17.78" y="-30.48"/>
 </instances>
 <busses>
 </busses>
@@ -11432,15 +11444,16 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/37793330023930AD620_e.pd
 <wire x1="-99.06" y1="38.1" x2="-91.44" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="17.78" y1="22.86" x2="35.56" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="22.86" x2="50.8" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="+V"/>
-<wire x1="17.78" y1="15.24" x2="17.78" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="35.56" y1="7.62" x2="35.56" y2="22.86" width="0.1524" layer="91"/>
-<junction x="35.56" y="22.86"/>
-<junction x="17.78" y="15.24"/>
 <pinref part="+5VA1" gate="1" pin="+5V"/>
+<pinref part="IC2" gate="G$1" pin="+V"/>
+<wire x1="35.56" y1="22.86" x2="17.78" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="22.86" x2="17.78" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="C14" gate="G$1" pin="2"/>
+<wire x1="17.78" y1="22.86" x2="17.78" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="25.4" x2="15.24" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R21" gate="G$1" pin="1"/>
@@ -11730,6 +11743,8 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/37793330023930AD620_e.pd
 <junction x="50.8" y="0"/>
 <junction x="17.78" y="-15.24"/>
 <pinref part="GND5" gate="1" pin="GND"/>
+<wire x1="17.78" y1="-15.24" x2="17.78" y2="-17.78" width="0.1524" layer="91"/>
+<pinref part="C15" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="GND11" gate="1" pin="GND"/>
@@ -11752,6 +11767,14 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/37793330023930AD620_e.pd
 <pinref part="X1" gate="-4" pin="S"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 <wire x1="-22.86" y1="17.78" x2="5.08" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="C14" gate="G$1" pin="1"/>
+<wire x1="7.62" y1="25.4" x2="5.08" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="25.4" x2="5.08" y2="17.78" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C15" gate="G$1" pin="2"/>
+<wire x1="17.78" y1="-25.4" x2="17.78" y2="-27.94" width="0.1524" layer="91"/>
+<pinref part="GND26" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="SCK" class="0">

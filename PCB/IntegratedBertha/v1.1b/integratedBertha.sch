@@ -5678,35 +5678,6 @@ Source: YH-55-10.pdf</description>
 <smd name="IO9" x="-7.62" y="-6.35" dx="1.27" dy="0.635" layer="1"/>
 <smd name="CFG" x="-7.62" y="-7.62" dx="1.27" dy="0.635" layer="1"/>
 </package>
-<package name="FLOPPY-4">
-<description>&lt;b&gt;Power connector (Floppy Drive)&lt;/b&gt;&lt;p&gt;
-MATE N-LOK</description>
-<wire x1="-10.668" y1="5.2832" x2="10.668" y2="5.2832" width="0.1524" layer="51"/>
-<wire x1="10.668" y1="5.2832" x2="10.668" y2="10.668" width="0.1524" layer="21"/>
-<wire x1="-10.668" y1="10.668" x2="-10.668" y2="5.2832" width="0.1524" layer="21"/>
-<wire x1="-10.668" y1="10.668" x2="-8.89" y2="12.446" width="0.1524" layer="21"/>
-<wire x1="-11.684" y1="11.303" x2="-9.779" y2="13.0812" width="0.1524" layer="21" curve="-93.943439"/>
-<wire x1="-8.89" y1="12.446" x2="8.89" y2="12.446" width="0.1524" layer="51"/>
-<wire x1="9.779" y1="13.081" x2="11.6838" y2="11.303" width="0.1524" layer="21" curve="-93.943867"/>
-<wire x1="9.779" y1="13.081" x2="-9.779" y2="13.081" width="0.1524" layer="21"/>
-<wire x1="11.684" y1="11.303" x2="11.684" y2="-4.191" width="0.1524" layer="21"/>
-<wire x1="11.684" y1="-4.191" x2="-11.684" y2="-4.191" width="0.1524" layer="21"/>
-<wire x1="-11.684" y1="-4.191" x2="-11.684" y2="11.303" width="0.1524" layer="21"/>
-<wire x1="10.668" y1="10.668" x2="8.89" y2="12.446" width="0.1524" layer="21"/>
-<pad name="+12V" x="7.62" y="0" drill="1.9304" diameter="3.81" shape="long" rot="R90"/>
-<pad name="GND2" x="2.54" y="0" drill="1.9304" diameter="3.81" shape="long" rot="R90"/>
-<pad name="GND1" x="-2.54" y="0" drill="1.9304" diameter="3.81" shape="long" rot="R90"/>
-<pad name="+5V" x="-7.62" y="0" drill="1.9304" diameter="3.81" shape="long" rot="R270"/>
-<text x="2.54" y="13.97" size="1.27" layer="27">&gt;VALUE</text>
-<text x="-8.89" y="13.97" size="1.27" layer="25">&gt;NAME</text>
-<text x="-9.525" y="-6.35" size="1.27" layer="21">+5V</text>
-<text x="5.715" y="-6.35" size="1.27" layer="21">+12V</text>
-<text x="-1.905" y="-6.35" size="1.27" layer="21">GND</text>
-<hole x="-10.668" y="2.54" drill="2.54"/>
-<hole x="10.668" y="2.54" drill="2.54"/>
-<hole x="-5.08" y="10.16" drill="3.9878"/>
-<hole x="5.08" y="10.16" drill="3.9878"/>
-</package>
 <package name="7395-02">
 <description>&lt;b&gt;MOLEX 2.54mm KK RA CONNECTOR&lt;/b&gt;
 &lt;br&gt;Fixed Orientation</description>
@@ -5865,6 +5836,81 @@ MATE N-LOK</description>
 <wire x1="8.89" y1="-5.08" x2="8.89" y2="5.08" width="0.127" layer="21"/>
 <wire x1="8.89" y1="5.08" x2="-8.89" y2="5.08" width="0.127" layer="21"/>
 <pad name="3" x="5.08" y="0" drill="1.9304" diameter="3.81" shape="long" rot="R90"/>
+</package>
+<package name="SZ05-ZIGBEE4">
+<wire x1="-8.8152" y1="10.971" x2="10.2298" y2="10.971" width="0.127" layer="21"/>
+<wire x1="10.2298" y1="10.971" x2="10.2298" y2="-12.399" width="0.127" layer="21"/>
+<wire x1="10.2298" y1="-12.399" x2="-8.8152" y2="-12.399" width="0.127" layer="21"/>
+<wire x1="-8.8152" y1="-12.399" x2="-8.8152" y2="10.971" width="0.127" layer="21"/>
+<pad name="IO1" x="-6.985" y="8.89" drill="0.7" diameter="1.016" shape="long"/>
+<pad name="IO2" x="-6.985" y="7.62" drill="0.7" diameter="1.016" shape="long"/>
+<pad name="AD1" x="-6.985" y="6.35" drill="0.7" diameter="1.016" shape="long"/>
+<pad name="AD2" x="-6.985" y="5.08" drill="0.7" diameter="1.016" shape="long"/>
+<pad name="AD3" x="-6.985" y="3.81" drill="0.7" diameter="1.016" shape="long"/>
+<pad name="AD4" x="-6.985" y="2.54" drill="0.7" diameter="1.016" shape="long"/>
+<pad name="RUN" x="-6.985" y="1.27" drill="0.7" diameter="1.016" shape="long"/>
+<pad name="NET" x="-6.985" y="0" drill="0.7" diameter="1.016" shape="long"/>
+<pad name="ALM" x="-6.985" y="-1.27" drill="0.7" diameter="1.016" shape="long"/>
+<pad name="SLD" x="-6.985" y="-2.54" drill="0.7" diameter="1.016" shape="long"/>
+<pad name="C485" x="-6.985" y="-3.81" drill="0.7" diameter="1.016" shape="long"/>
+<pad name="IO8" x="-6.985" y="-5.08" drill="0.7" diameter="1.016" shape="long"/>
+<pad name="IO9" x="-6.985" y="-6.35" drill="0.7" diameter="1.016" shape="long"/>
+<pad name="CFG" x="-6.985" y="-7.62" drill="0.7" diameter="1.016" shape="long"/>
+<pad name="RST" x="8.255" y="-7.62" drill="0.7" diameter="1.016" shape="long"/>
+<pad name="MS" x="8.255" y="-6.35" drill="0.7" diameter="1.016" shape="long"/>
+<pad name="RX2" x="8.255" y="-5.08" drill="0.7" diameter="1.016" shape="long"/>
+<pad name="TX2" x="8.255" y="-3.81" drill="0.7" diameter="1.016" shape="long"/>
+<pad name="SND" x="8.255" y="-2.54" drill="0.7" diameter="1.016" shape="long"/>
+<pad name="TX1" x="8.255" y="-1.27" drill="0.7" diameter="1.016" shape="long"/>
+<pad name="RX1" x="8.255" y="0" drill="0.7" diameter="1.016" shape="long"/>
+<pad name="VCC" x="8.255" y="1.27" drill="0.7" diameter="1.016" shape="long"/>
+<pad name="GND" x="8.255" y="2.54" drill="0.7" diameter="1.016" shape="long"/>
+<pad name="IO7" x="8.255" y="3.81" drill="0.7" diameter="1.016" shape="long"/>
+<pad name="IO6" x="8.255" y="5.08" drill="0.7" diameter="1.016" shape="long"/>
+<pad name="IO5" x="8.255" y="6.35" drill="0.7" diameter="1.016" shape="long"/>
+<pad name="IO4" x="8.255" y="7.62" drill="0.7" diameter="1.016" shape="long"/>
+<pad name="IO3" x="8.255" y="8.89" drill="0.7" diameter="1.016" shape="long"/>
+<text x="-9.5734" y="-6.0571" size="0.8128" layer="25" font="vector" rot="R180">IO9</text>
+<text x="-9.5226" y="-4.8125" size="0.8128" layer="25" font="vector" rot="R180">IO8</text>
+<text x="-9.5416" y="-7.3285" size="0.8128" layer="25" font="vector" rot="R180">CFG</text>
+<text x="-9.4734" y="-1.0371" size="0.8128" layer="25" font="vector" rot="R180">ALM</text>
+<text x="-9.4226" y="0.2075" size="0.8128" layer="25" font="vector" rot="R180">NET</text>
+<text x="-9.4416" y="-2.3085" size="0.8128" layer="25" font="vector" rot="R180">SLP</text>
+<text x="-9.3416" y="1.4415" size="0.8128" layer="25" font="vector" rot="R180">RNU</text>
+<text x="-9.3416" y="2.7115" size="0.8128" layer="25" font="vector" rot="R180">AD4</text>
+<text x="12.9966" y="-4.6096" size="0.8128" layer="25" font="vector" rot="R180">RX2</text>
+<text x="13.1474" y="-3.165" size="0.8128" layer="25" font="vector" rot="R180">TX2</text>
+<text x="13.1284" y="-7.2285" size="0.8128" layer="25" font="vector" rot="R180">RST</text>
+<text x="13.1966" y="-0.6196" size="0.8128" layer="25" font="vector" rot="R180">TX1</text>
+<text x="13.2474" y="0.625" size="0.8128" layer="25" font="vector" rot="R180">RX1</text>
+<text x="13.8634" y="-1.891" size="0.8128" layer="25" font="vector" rot="R180">SGND</text>
+<text x="13.3284" y="1.859" size="0.8128" layer="25" font="vector" rot="R180">VCC</text>
+<text x="13.3284" y="3.129" size="0.8128" layer="25" font="vector" rot="R180">GND</text>
+<text x="-2.7092" y="8.663" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.7092" y="-11.784" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="RJ12-STRAIGHT-WIEGAND">
+<wire x1="-6.877" y1="9.549" x2="6.877" y2="9.549" width="0.2032" layer="21"/>
+<wire x1="6.877" y1="-9.052" x2="-6.877" y2="-9.052" width="0.2032" layer="21"/>
+<wire x1="-6.877" y1="-9.052" x2="-6.877" y2="9.549" width="0.2032" layer="21"/>
+<wire x1="6.877" y1="9.549" x2="6.877" y2="-9.052" width="0.2032" layer="21"/>
+<pad name="I/O" x="0.635" y="5.08" drill="0.9" diameter="1.4"/>
+<pad name="DAT1" x="-0.635" y="7.62" drill="0.9" diameter="1.4"/>
+<pad name="DAT0" x="-1.905" y="5.08" drill="0.9" diameter="1.4"/>
+<pad name="PWM" x="1.905" y="7.62" drill="0.9" diameter="1.4"/>
+<pad name="+12V" x="-3.175" y="7.62" drill="0.9" diameter="1.4"/>
+<pad name="GND" x="3.175" y="5.08" drill="0.9" diameter="1.4"/>
+<text x="2.2225" y="2.8575" size="0.8128" layer="21" ratio="4">GND</text>
+<text x="-0.3175" y="2.8575" size="0.8128" layer="21" ratio="4">I/O</text>
+<text x="2.8575" y="7.3025" size="0.8128" layer="21" ratio="4">PWM</text>
+<text x="-1.27" y="8.5725" size="0.8128" layer="21" ratio="4">DAT1</text>
+<text x="-6.0325" y="7.3025" size="0.8128" layer="21" ratio="4">12V</text>
+<text x="-4.7625" y="2.8575" size="0.8128" layer="21" ratio="4">DAT0</text>
+<rectangle x1="6.95" y1="-6.755" x2="7.875" y2="-5.612" layer="21"/>
+<rectangle x1="-7.875" y1="-6.755" x2="-6.95" y2="-5.612" layer="21"/>
+<rectangle x1="-8.0693" y1="-6.8272" x2="7.9507" y2="6.7728" layer="150" rot="R90"/>
+<hole x="-5.08" y="-1.27" drill="3.2512"/>
+<hole x="5.08" y="-1.27" drill="3.2512"/>
 </package>
 </packages>
 <symbols>
@@ -6136,6 +6182,19 @@ Source: www.tycoelectronics.com .. ENG_DS_1654001_1099_RJ_L_0507.pdf</descriptio
 <technology name=""/>
 </technologies>
 </device>
+<device name="STR-WIEGAND" package="RJ12-STRAIGHT-WIEGAND">
+<connects>
+<connect gate="G$1" pin="1" pad="+12V"/>
+<connect gate="G$1" pin="2" pad="DAT0"/>
+<connect gate="G$1" pin="3" pad="DAT1"/>
+<connect gate="G$1" pin="4" pad="I/O"/>
+<connect gate="G$1" pin="5" pad="PWM"/>
+<connect gate="G$1" pin="6" pad="GND"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="KPJX-4S-S">
@@ -6144,17 +6203,6 @@ Source: www.tycoelectronics.com .. ENG_DS_1654001_1099_RJ_L_0507.pdf</descriptio
 </gates>
 <devices>
 <device name="" package="KPJX-4S-S">
-<connects>
-<connect gate="G$1" pin="+12V" pad="+12V"/>
-<connect gate="G$1" pin="+5V" pad="+5V"/>
-<connect gate="G$1" pin="GND1" pad="GND1"/>
-<connect gate="G$1" pin="GND2" pad="GND2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="HD" package="FLOPPY-4">
 <connects>
 <connect gate="G$1" pin="+12V" pad="+12V"/>
 <connect gate="G$1" pin="+5V" pad="+5V"/>
@@ -6343,6 +6391,23 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <connect gate="G$1" pin="NET" pad="NET"/>
 <connect gate="G$1" pin="RNU" pad="RUN"/>
 <connect gate="G$1" pin="RST" pad="RST" route="any"/>
+<connect gate="G$1" pin="RX1" pad="RX1"/>
+<connect gate="G$1" pin="SGND" pad="SND"/>
+<connect gate="G$1" pin="TX1" pad="TX1"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="THROUGHHOLE" package="SZ05-ZIGBEE4">
+<connects>
+<connect gate="G$1" pin="ALM" pad="ALM"/>
+<connect gate="G$1" pin="CFG" pad="CFG"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="NET" pad="NET"/>
+<connect gate="G$1" pin="RNU" pad="RUN"/>
+<connect gate="G$1" pin="RST" pad="RST"/>
 <connect gate="G$1" pin="RX1" pad="RX1"/>
 <connect gate="G$1" pin="SGND" pad="SND"/>
 <connect gate="G$1" pin="TX1" pad="TX1"/>
@@ -11069,7 +11134,7 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/37793330023930AD620_e.pd
 <part name="P+18" library="supply1" deviceset="+5V" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="GND27" library="supply1" deviceset="GND" device=""/>
-<part name="U$3" library="lpatiny" deviceset="SZ05-ZIGBEE" device="" value="SZ05-ZIGBEE"/>
+<part name="U$3" library="lpatiny" deviceset="SZ05-ZIGBEE" device="THROUGHHOLE" value="SZ05-ZIGBEETHROUGHHOLE"/>
 <part name="R8" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
 <part name="R11" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
 <part name="LED9" library="adafruit" deviceset="LED" device="CHIPLED_1206" value="RED"/>

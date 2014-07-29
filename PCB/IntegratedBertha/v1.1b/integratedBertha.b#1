@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="12.5" altunitdist="mil" altunit="mil"/>
+<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="12.5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -5563,50 +5563,57 @@ Source: www.tycoelectronics.com .. ENG_DS_1654001_1099_RJ_L_0507.pdf</descriptio
 <rectangle x1="3.175" y1="-1.905" x2="6.985" y2="1.905" layer="42"/>
 <rectangle x1="-4.445" y1="3.81" x2="4.445" y2="10.795" layer="43"/>
 </package>
-<package name="SZ05-ZIGBEE">
-<wire x1="-13.8952" y1="30.021" x2="13.4048" y2="30.021" width="0.127" layer="21"/>
-<wire x1="13.4048" y1="30.021" x2="13.4048" y2="-17.479" width="0.127" layer="21"/>
-<wire x1="13.4048" y1="-17.479" x2="-13.8952" y2="-17.479" width="0.127" layer="21"/>
-<wire x1="-13.8952" y1="-17.479" x2="-13.8952" y2="30.021" width="0.127" layer="21"/>
-<pad name="6" x="-11.4152" y="13.971" drill="0.8" diameter="1.6764" shape="octagon"/>
-<pad name="7" x="-11.4152" y="11.431" drill="0.8" diameter="1.6764" shape="octagon"/>
-<pad name="RNU" x="-11.4152" y="8.891" drill="0.8" diameter="1.6764" shape="octagon"/>
-<pad name="NET" x="-11.4152" y="6.351" drill="0.8" diameter="1.6764" shape="octagon"/>
-<pad name="ALM" x="-11.4152" y="3.811" drill="0.8" diameter="1.6764" shape="octagon"/>
-<pad name="11" x="-11.4152" y="1.271" drill="0.8" diameter="1.6764" shape="octagon"/>
-<pad name="12" x="-11.4152" y="-1.269" drill="0.8" diameter="1.6764" shape="octagon"/>
-<pad name="13" x="-11.4152" y="-3.809" drill="0.8" diameter="1.6764" shape="octagon"/>
-<pad name="14" x="-11.4152" y="-6.349" drill="0.8" diameter="1.6764" shape="octagon"/>
-<pad name="CFG" x="-11.4152" y="-8.889" drill="0.8" diameter="1.6764" shape="octagon"/>
-<pad name="RST" x="10.9248" y="-8.889" drill="0.8" diameter="1.6764" shape="octagon"/>
-<pad name="17" x="10.9248" y="-6.349" drill="0.8" diameter="1.6764" shape="octagon"/>
-<pad name="18" x="10.9248" y="-3.809" drill="0.8" diameter="1.6764" shape="octagon"/>
-<pad name="19" x="10.9248" y="-1.269" drill="0.8" diameter="1.6764" shape="octagon"/>
-<pad name="SGND" x="10.9248" y="1.271" drill="0.8" diameter="1.6764" shape="octagon"/>
-<pad name="TX1" x="10.9248" y="3.811" drill="0.8" diameter="1.6764" shape="octagon"/>
-<pad name="RX1" x="10.9248" y="6.351" drill="0.8" diameter="1.6764" shape="octagon"/>
-<pad name="VCC" x="10.9248" y="8.891" drill="0.8" diameter="1.6764" shape="octagon"/>
-<pad name="GND" x="10.9248" y="11.431" drill="0.8" diameter="1.6764" shape="octagon"/>
-<pad name="25" x="10.9248" y="13.971" drill="0.8" diameter="1.6764" shape="octagon"/>
-<text x="-14.1392" y="26.443" size="1.27" layer="25">&gt;NAME</text>
-<text x="-14.1392" y="-19.404" size="1.27" layer="27">&gt;VALUE</text>
-<text x="-15.2884" y="-5.7396" size="1.4" layer="25" font="vector" rot="R180">IO9</text>
-<text x="-15.2376" y="-3.225" size="1.4" layer="25" font="vector" rot="R180">IO8</text>
-<text x="-15.2566" y="-8.281" size="1.4" layer="25" font="vector" rot="R180">CFG</text>
-<text x="-15.1884" y="4.3604" size="1.4" layer="25" font="vector" rot="R180">ALM</text>
-<text x="-15.1376" y="6.875" size="1.4" layer="25" font="vector" rot="R180">NET</text>
-<text x="-1.1614" y="19.358" size="1.4" layer="25" font="vector" rot="R180"></text>
-<text x="-15.1566" y="1.819" size="1.4" layer="25" font="vector" rot="R180">SLP</text>
-<text x="-15.0566" y="9.379" size="1.4" layer="25" font="vector" rot="R180">RNU</text>
-<text x="-15.0566" y="11.919" size="1.4" layer="25" font="vector" rot="R180">AD4</text>
-<text x="18.7116" y="-3.3396" size="1.4" layer="25" font="vector" rot="R180">RX2</text>
-<text x="18.8624" y="-0.625" size="1.4" layer="25" font="vector" rot="R180">TX2</text>
-<text x="18.8434" y="-8.181" size="1.4" layer="25" font="vector" rot="R180">RST</text>
-<text x="18.9116" y="4.4604" size="1.4" layer="25" font="vector" rot="R180">TX1</text>
-<text x="18.9624" y="6.975" size="1.4" layer="25" font="vector" rot="R180">RX1</text>
-<text x="18.9434" y="1.919" size="1.4" layer="25" font="vector" rot="R180">SGND</text>
-<text x="19.0434" y="9.479" size="1.4" layer="25" font="vector" rot="R180">VCC</text>
-<text x="19.0434" y="12.019" size="1.4" layer="25" font="vector" rot="R180">GND</text>
+<package name="SZ05-ZIGBEE4">
+<wire x1="-8.8152" y1="10.971" x2="10.2298" y2="10.971" width="0.127" layer="21"/>
+<wire x1="10.2298" y1="10.971" x2="10.2298" y2="-12.399" width="0.127" layer="21"/>
+<wire x1="10.2298" y1="-12.399" x2="-8.8152" y2="-12.399" width="0.127" layer="21"/>
+<wire x1="-8.8152" y1="-12.399" x2="-8.8152" y2="10.971" width="0.127" layer="21"/>
+<pad name="IO1" x="-6.985" y="8.89" drill="0.7" diameter="1.016" shape="long"/>
+<pad name="IO2" x="-6.985" y="7.62" drill="0.7" diameter="1.016" shape="long"/>
+<pad name="AD1" x="-6.985" y="6.35" drill="0.7" diameter="1.016" shape="long"/>
+<pad name="AD2" x="-6.985" y="5.08" drill="0.7" diameter="1.016" shape="long"/>
+<pad name="AD3" x="-6.985" y="3.81" drill="0.7" diameter="1.016" shape="long"/>
+<pad name="AD4" x="-6.985" y="2.54" drill="0.7" diameter="1.016" shape="long"/>
+<pad name="RUN" x="-6.985" y="1.27" drill="0.7" diameter="1.016" shape="long"/>
+<pad name="NET" x="-6.985" y="0" drill="0.7" diameter="1.016" shape="long"/>
+<pad name="ALM" x="-6.985" y="-1.27" drill="0.7" diameter="1.016" shape="long"/>
+<pad name="SLD" x="-6.985" y="-2.54" drill="0.7" diameter="1.016" shape="long"/>
+<pad name="C485" x="-6.985" y="-3.81" drill="0.7" diameter="1.016" shape="long"/>
+<pad name="IO8" x="-6.985" y="-5.08" drill="0.7" diameter="1.016" shape="long"/>
+<pad name="IO9" x="-6.985" y="-6.35" drill="0.7" diameter="1.016" shape="long"/>
+<pad name="CFG" x="-6.985" y="-7.62" drill="0.7" diameter="1.016" shape="long"/>
+<pad name="RST" x="8.255" y="-7.62" drill="0.7" diameter="1.016" shape="long"/>
+<pad name="MS" x="8.255" y="-6.35" drill="0.7" diameter="1.016" shape="long"/>
+<pad name="RX2" x="8.255" y="-5.08" drill="0.7" diameter="1.016" shape="long"/>
+<pad name="TX2" x="8.255" y="-3.81" drill="0.7" diameter="1.016" shape="long"/>
+<pad name="SND" x="8.255" y="-2.54" drill="0.7" diameter="1.016" shape="long"/>
+<pad name="TX1" x="8.255" y="-1.27" drill="0.7" diameter="1.016" shape="long"/>
+<pad name="RX1" x="8.255" y="0" drill="0.7" diameter="1.016" shape="long"/>
+<pad name="VCC" x="8.255" y="1.27" drill="0.7" diameter="1.016" shape="long"/>
+<pad name="GND" x="8.255" y="2.54" drill="0.7" diameter="1.016" shape="long"/>
+<pad name="IO7" x="8.255" y="3.81" drill="0.7" diameter="1.016" shape="long"/>
+<pad name="IO6" x="8.255" y="5.08" drill="0.7" diameter="1.016" shape="long"/>
+<pad name="IO5" x="8.255" y="6.35" drill="0.7" diameter="1.016" shape="long"/>
+<pad name="IO4" x="8.255" y="7.62" drill="0.7" diameter="1.016" shape="square"/>
+<pad name="IO3" x="8.255" y="8.89" drill="0.7" diameter="1.016" shape="square"/>
+<text x="-9.5734" y="-6.0571" size="0.8128" layer="25" font="vector" rot="R180">IO9</text>
+<text x="-9.5226" y="-4.8125" size="0.8128" layer="25" font="vector" rot="R180">IO8</text>
+<text x="-9.5416" y="-7.3285" size="0.8128" layer="25" font="vector" rot="R180">CFG</text>
+<text x="-9.4734" y="-1.0371" size="0.8128" layer="25" font="vector" rot="R180">ALM</text>
+<text x="-9.4226" y="0.2075" size="0.8128" layer="25" font="vector" rot="R180">NET</text>
+<text x="-9.4416" y="-2.3085" size="0.8128" layer="25" font="vector" rot="R180">SLP</text>
+<text x="-9.3416" y="1.4415" size="0.8128" layer="25" font="vector" rot="R180">RNU</text>
+<text x="-9.3416" y="2.7115" size="0.8128" layer="25" font="vector" rot="R180">AD4</text>
+<text x="12.9966" y="-4.6096" size="0.8128" layer="25" font="vector" rot="R180">RX2</text>
+<text x="13.1474" y="-3.165" size="0.8128" layer="25" font="vector" rot="R180">TX2</text>
+<text x="13.1284" y="-7.2285" size="0.8128" layer="25" font="vector" rot="R180">RST</text>
+<text x="13.1966" y="-0.6196" size="0.8128" layer="25" font="vector" rot="R180">TX1</text>
+<text x="13.2474" y="0.625" size="0.8128" layer="25" font="vector" rot="R180">RX1</text>
+<text x="13.8634" y="-1.891" size="0.8128" layer="25" font="vector" rot="R180">SGND</text>
+<text x="13.3284" y="1.859" size="0.8128" layer="25" font="vector" rot="R180">VCC</text>
+<text x="13.3284" y="3.129" size="0.8128" layer="25" font="vector" rot="R180">GND</text>
+<text x="-2.7092" y="8.663" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.7092" y="-11.784" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="TACTILE_SWITCH_SMD">
 <wire x1="-1.54" y1="-2.54" x2="-2.54" y2="-1.54" width="0.2032" layer="51"/>
@@ -6198,7 +6205,7 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf<
 <class number="4" name="aref" width="0.3556" drill="0">
 </class>
 </classes>
-<designrules name="Fusion_eagle_rule_v1.1">
+<designrules name="Fusion_eagle_rule_v1.1 *">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -6595,7 +6602,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="100.076" y="61.214" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="98.679" y="57.0865" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="U$3" library="lpatiny" package="SZ05-ZIGBEE" value="SZ05-ZIGBEE" x="86.36" y="38.1" smashed="yes" rot="R270">
+<element name="U$3" library="lpatiny" package="SZ05-ZIGBEE4" value="SZ05-ZIGBEETHROUGHHOLE" x="86.36" y="38.1" smashed="yes" rot="R270">
 <attribute name="NAME" x="97.563" y="43.3492" size="1.27" layer="25" rot="R270"/>
 <attribute name="VALUE" x="99.976" y="44.3017" size="1.27" layer="27" rot="R270"/>
 </element>
@@ -6766,8 +6773,8 @@ design rules under a new name.</description>
 <wire x1="95.25" y1="35.88" x2="96.52" y2="54.61" width="0" layer="19" extent="16-16"/>
 <wire x1="92.71" y1="35.88" x2="95.25" y2="35.88" width="0" layer="19" extent="16-16"/>
 <wire x1="90.17" y1="35.88" x2="92.71" y2="35.88" width="0" layer="19" extent="16-16"/>
-<wire x1="95.251" y1="27.1752" x2="95.25" y2="35.88" width="0" layer="19" extent="16-16"/>
-<wire x1="88.748" y1="13.97" x2="95.251" y2="27.1752" width="0" layer="19" extent="1-1"/>
+<wire x1="87.63" y1="29.845" x2="95.25" y2="35.88" width="0" layer="19" extent="16-16"/>
+<wire x1="88.748" y1="13.97" x2="87.63" y2="29.845" width="0" layer="19" extent="1-1"/>
 <wire x1="87.63" y1="6.35" x2="88.748" y2="13.97" width="0" layer="19" extent="1-1"/>
 <wire x1="39.37" y1="6.35" x2="46.355" y2="24.19" width="0" layer="19" extent="1-1"/>
 <wire x1="67.158" y1="13.97" x2="88.748" y2="13.97" width="0" layer="19" extent="1-1"/>
@@ -6878,7 +6885,7 @@ design rules under a new name.</description>
 <wire x1="15.24" y1="71.12" x2="15.875" y2="71.12" width="1.27" layer="16"/>
 <wire x1="15.875" y1="71.12" x2="15.875" y2="73.66" width="1.27" layer="16"/>
 <contactref element="U$3" pad="GND"/>
-<contactref element="U$3" pad="SGND"/>
+<contactref element="U$3" pad="SND"/>
 <contactref element="CFG" pad="1"/>
 <wire x1="105.8672" y1="21.5392" x2="106.68" y2="21.5392" width="0.4572" layer="1"/>
 <contactref element="Q7" pad="3"/>
@@ -6899,9 +6906,9 @@ design rules under a new name.</description>
 <contactref element="X1" pad="4"/>
 <contactref element="C14" pad="1"/>
 <contactref element="C15" pad="2"/>
-<wire x1="105.8672" y1="21.5392" x2="97.791" y2="27.1752" width="0" layer="19" extent="1-1"/>
-<wire x1="87.631" y1="27.1752" x2="97.791" y2="27.1752" width="0" layer="19" extent="1-1"/>
-<wire x1="83.5025" y1="33.3375" x2="87.631" y2="27.1752" width="0" layer="19" extent="16-16"/>
+<wire x1="105.8672" y1="21.5392" x2="88.9" y2="29.845" width="0" layer="19" extent="1-1"/>
+<wire x1="83.82" y1="29.845" x2="88.9" y2="29.845" width="0" layer="19" extent="1-1"/>
+<wire x1="83.5025" y1="33.3375" x2="83.82" y2="29.845" width="0" layer="19" extent="16-16"/>
 <wire x1="97.79" y1="6.35" x2="106.68" y2="-1.27" width="0" layer="19" extent="1-1"/>
 <wire x1="8.08" y1="46.66" x2="7.7" y2="34.25" width="0" layer="19" extent="1-1"/>
 <wire x1="66.04" y1="37.78" x2="83.5025" y2="33.3375" width="0" layer="19" extent="1-16"/>
@@ -7389,14 +7396,14 @@ design rules under a new name.</description>
 <signal name="RXLED">
 <contactref element="U$4" pad="8"/>
 </signal>
-<signal name="USB-">
+<signal name="USBC_N">
 <contactref element="X4" pad="2"/>
 <contactref element="R31" pad="2"/>
 <wire x1="8.08" y1="49.06" x2="30.9244" y2="49.06" width="0.4064" layer="1"/>
-<wire x1="30.9244" y1="49.06" x2="32.0294" y2="50.165" width="0.4064" layer="1"/>
-<wire x1="32.0294" y1="50.165" x2="32.89" y2="50.165" width="0.4064" layer="1"/>
+<wire x1="30.9244" y1="49.06" x2="32.5374" y2="50.165" width="0.4064" layer="1"/>
+<wire x1="32.5374" y1="50.165" x2="32.89" y2="50.165" width="0.4064" layer="1"/>
 </signal>
-<signal name="USB+">
+<signal name="USBC_P">
 <contactref element="X4" pad="3"/>
 <contactref element="R24" pad="2"/>
 <wire x1="8.08" y1="48.26" x2="12.065" y2="48.26" width="0.4064" layer="1"/>
@@ -7482,17 +7489,17 @@ design rules under a new name.</description>
 <signal name="N$11">
 <contactref element="U$3" pad="RX1"/>
 <contactref element="R11" pad="2"/>
-<wire x1="92.711" y1="27.1752" x2="92.71" y2="30.8" width="0" layer="19" extent="16-16"/>
+<wire x1="86.36" y1="29.845" x2="92.71" y2="30.8" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$24">
 <contactref element="U$3" pad="TX1"/>
 <contactref element="R8" pad="2"/>
-<wire x1="90.171" y1="27.1752" x2="90.17" y2="30.8" width="0" layer="19" extent="16-16"/>
+<wire x1="85.09" y1="29.845" x2="90.17" y2="30.8" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="GND1" class="2">
 <contactref element="LED9" pad="C"/>
-<contactref element="U$3" pad="RNU"/>
-<wire x1="95.25" y1="44.93" x2="95.251" y2="49.5152" width="0" layer="19" extent="16-16"/>
+<contactref element="U$3" pad="RUN"/>
+<wire x1="95.25" y1="44.93" x2="87.63" y2="45.085" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$25">
 <contactref element="R12" pad="1"/>
@@ -7502,7 +7509,7 @@ design rules under a new name.</description>
 <signal name="GND2" class="2">
 <contactref element="LED11" pad="C"/>
 <contactref element="U$3" pad="NET"/>
-<wire x1="92.71" y1="44.93" x2="92.711" y2="49.5152" width="0" layer="19" extent="16-16"/>
+<wire x1="92.71" y1="44.93" x2="86.36" y2="45.085" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$26">
 <contactref element="R14" pad="1"/>
@@ -7512,7 +7519,7 @@ design rules under a new name.</description>
 <signal name="GND3" class="2">
 <contactref element="LED12" pad="C"/>
 <contactref element="U$3" pad="ALM"/>
-<wire x1="90.17" y1="44.93" x2="90.171" y2="49.5152" width="0" layer="19" extent="16-16"/>
+<wire x1="90.17" y1="44.93" x2="85.09" y2="45.085" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$27">
 <contactref element="R39" pad="1"/>
@@ -7522,7 +7529,7 @@ design rules under a new name.</description>
 <signal name="N$35">
 <contactref element="CFG" pad="4"/>
 <contactref element="U$3" pad="CFG"/>
-<wire x1="79.0575" y1="40.3225" x2="77.471" y2="49.5152" width="0" layer="19" extent="16-16"/>
+<wire x1="79.0575" y1="40.3225" x2="78.74" y2="45.085" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$6">
 <contactref element="RL2" pad="2"/>
