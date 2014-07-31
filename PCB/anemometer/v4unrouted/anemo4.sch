@@ -8089,7 +8089,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <pinref part="IC6" gate="A" pin="+IN"/>
 </segment>
 </net>
-<net name="GND" class="1">
+<net name="AGND" class="1">
 <segment>
 <pinref part="DIV2" gate="G$1" pin="1"/>
 <pinref part="DIV8" gate="G$1" pin="1"/>

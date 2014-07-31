@@ -2917,7 +2917,7 @@ design rules under a new name.</description>
 <wire x1="73.66" y1="72.26" x2="78.74" y2="72.26" width="0" layer="19" extent="1-1"/>
 <wire x1="62.17" y1="70.485" x2="73.66" y2="72.26" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="GND" class="1">
+<signal name="AGND" class="1">
 <contactref element="DIV2" pad="1"/>
 <contactref element="DIV8" pad="1"/>
 <contactref element="DIV4" pad="1"/>
@@ -2956,6 +2956,9 @@ design rules under a new name.</description>
 <contactref element="J2" pad="GND2"/>
 <contactref element="LED0" pad="C"/>
 <contactref element="U$1" pad="5"/>
+<wire x1="31.75" y1="75.19" x2="31.75" y2="77.47" width="0.6096" layer="1"/>
+<wire x1="31.75" y1="77.47" x2="13.97" y2="77.47" width="0.6096" layer="1"/>
+<wire x1="13.97" y1="77.47" x2="13.97" y2="73.025" width="0.6096" layer="1"/>
 <wire x1="86.36" y1="66.675" x2="86.36" y2="69.215" width="0" layer="19" extent="1-1"/>
 <wire x1="78.74" y1="75.06" x2="86.36" y2="69.215" width="0" layer="19" extent="1-1"/>
 <wire x1="74.8" y1="68.58" x2="78.74" y2="75.06" width="0" layer="19" extent="1-1"/>
@@ -2967,20 +2970,18 @@ design rules under a new name.</description>
 <wire x1="46.99" y1="76.33" x2="50.8" y2="76.33" width="0" layer="19" extent="1-1"/>
 <wire x1="43.18" y1="76.33" x2="46.99" y2="76.33" width="0" layer="19" extent="1-1"/>
 <wire x1="31.75" y1="75.19" x2="43.18" y2="76.33" width="0" layer="19" extent="1-1"/>
-<wire x1="24.13" y1="68.58" x2="31.75" y2="75.19" width="0" layer="19" extent="1-1"/>
-<wire x1="21.46" y1="73.66" x2="24.13" y2="68.58" width="0" layer="19" extent="16-16"/>
-<wire x1="21.46" y1="77.47" x2="21.46" y2="73.66" width="0" layer="19" extent="16-16"/>
-<wire x1="13.97" y1="73.025" x2="21.46" y2="73.66" width="0" layer="19" extent="16-16"/>
-<wire x1="13.97" y1="70.485" x2="13.97" y2="73.025" width="0" layer="19" extent="1-1"/>
+<wire x1="21.46" y1="77.47" x2="13.97" y2="77.47" width="0" layer="19" extent="1-16"/>
+<wire x1="21.46" y1="73.66" x2="21.46" y2="77.47" width="0" layer="19" extent="16-16"/>
+<wire x1="24.13" y1="68.58" x2="21.46" y2="73.66" width="0" layer="19" extent="16-16"/>
 <wire x1="30.48" y1="63.5" x2="24.13" y2="68.58" width="0" layer="19" extent="1-1"/>
 <wire x1="64.9" y1="53.34" x2="68.35" y2="64.77" width="0" layer="19" extent="1-16"/>
 <wire x1="65.405" y1="50.74" x2="64.9" y2="53.34" width="0" layer="19" extent="1-16"/>
 <wire x1="73.66" y1="50.93" x2="65.405" y2="50.74" width="0" layer="19" extent="1-1"/>
-<wire x1="86.49" y1="53.34" x2="73.66" y2="50.93" width="0" layer="19" extent="1-16"/>
-<wire x1="86.995" y1="50.74" x2="86.49" y2="53.34" width="0" layer="19" extent="1-16"/>
 <wire x1="30.48" y1="50.93" x2="30.48" y2="63.5" width="0" layer="19" extent="1-1"/>
 <wire x1="22.225" y1="50.74" x2="30.48" y2="50.93" width="0" layer="19" extent="1-1"/>
 <wire x1="21.72" y1="53.34" x2="22.225" y2="50.74" width="0" layer="19" extent="1-16"/>
+<wire x1="86.49" y1="53.34" x2="73.66" y2="50.93" width="0" layer="19" extent="1-16"/>
+<wire x1="86.995" y1="50.74" x2="86.49" y2="53.34" width="0" layer="19" extent="1-16"/>
 <wire x1="52.07" y1="50.93" x2="64.9" y2="53.34" width="0" layer="19" extent="1-16"/>
 <wire x1="43.815" y1="50.74" x2="52.07" y2="50.93" width="0" layer="19" extent="1-1"/>
 <wire x1="43.31" y1="53.34" x2="43.815" y2="50.74" width="0" layer="19" extent="1-16"/>
@@ -2993,6 +2994,7 @@ design rules under a new name.</description>
 <wire x1="42.04" y1="16.51" x2="42.04" y2="30.48" width="0" layer="19" extent="16-16"/>
 <wire x1="20.45" y1="30.48" x2="22.225" y2="50.74" width="0" layer="19" extent="1-16"/>
 <wire x1="20.45" y1="16.51" x2="20.45" y2="30.48" width="0" layer="19" extent="16-16"/>
+<wire x1="13.97" y1="73.025" x2="13.97" y2="70.485" width="0.6096" layer="1"/>
 </signal>
 <signal name="IN+1">
 <contactref element="RUP2_1" pad="1"/>
@@ -3337,6 +3339,14 @@ design rules under a new name.</description>
 <contactref element="RL0" pad="1"/>
 <contactref element="LED0" pad="A"/>
 <wire x1="71.35" y1="64.77" x2="74.8" y2="64.77" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$15">
+<polygon width="0.6096" layer="16" isolate="0.3048" orphans="yes">
+<vertex x="0" y="80.01"/>
+<vertex x="99.695" y="80.01"/>
+<vertex x="99.695" y="0"/>
+<vertex x="0" y="0"/>
+</polygon>
 </signal>
 </signals>
 </board>
