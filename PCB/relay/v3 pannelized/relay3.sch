@@ -5634,7 +5634,12 @@ Source: http://www.infineon.com/dgdl/BSP613P_Rev2.4.pdf</description>
 <segment>
 <pinref part="I/O_PWM" gate="G$1" pin="4"/>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="119.38" y1="175.26" x2="106.68" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="175.26" x2="116.84" y2="175.26" width="0.1524" layer="91"/>
+<pinref part="I/O_PWM" gate="G$1" pin="6"/>
+<wire x1="116.84" y1="175.26" x2="106.68" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="170.18" x2="116.84" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="170.18" x2="116.84" y2="175.26" width="0.1524" layer="91"/>
+<junction x="116.84" y="175.26"/>
 </segment>
 <segment>
 <pinref part="JP_GND" gate="A" pin="1"/>

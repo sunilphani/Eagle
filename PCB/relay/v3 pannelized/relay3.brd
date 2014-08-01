@@ -590,7 +590,8 @@ design rules under a new name.</description>
 <wire x1="30.48" y1="17.78" x2="30.61" y2="17.78" width="1.3716" layer="1"/>
 <wire x1="30.48" y1="13.97" x2="30.61" y2="13.97" width="1.3716" layer="1"/>
 <wire x1="22.86" y1="11.43" x2="27.94" y2="6.35" width="1.3716" layer="1"/>
-<wire x1="17.78" y1="11.43" x2="22.86" y2="11.43" width="1.3716" layer="1"/>
+<wire x1="17.78" y1="11.43" x2="20.32" y2="11.43" width="1.3716" layer="1"/>
+<wire x1="20.32" y1="11.43" x2="22.86" y2="11.43" width="1.3716" layer="1"/>
 <wire x1="17.78" y1="13.97" x2="17.78" y2="11.43" width="1.3716" layer="1"/>
 <wire x1="17.78" y1="13.97" x2="17.145" y2="13.97" width="1.3716" layer="1"/>
 <wire x1="33.02" y1="5.08" x2="33.02" y2="10.16" width="1.3716" layer="1"/>
@@ -602,6 +603,10 @@ design rules under a new name.</description>
 <wire x1="17.78" y1="11.43" x2="8.89" y2="11.43" width="1.27" layer="1"/>
 <wire x1="8.89" y1="11.43" x2="3.81" y2="16.51" width="1.27" layer="1"/>
 <wire x1="3.81" y1="16.51" x2="3.81" y2="39.37" width="1.27" layer="1"/>
+<contactref element="I/O_PWM" pad="GND1"/>
+<wire x1="19.685" y1="13.97" x2="20.32" y2="13.97" width="1.27" layer="1"/>
+<wire x1="20.32" y1="13.97" x2="20.32" y2="11.43" width="1.27" layer="1"/>
+<wire x1="17.78" y1="13.97" x2="19.685" y2="13.97" width="1.27" layer="1"/>
 </signal>
 <signal name="+5V" class="2">
 <contactref element="RL0" pad="2"/>
