@@ -1,5 +1,0 @@
-V4
-
-Compare Output Voltage to 4V
-Higher sensitivity through higher gain and lower voltage division rate at output.
-Vref=4V

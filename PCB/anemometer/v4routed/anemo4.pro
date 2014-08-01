@@ -1,9 +1,9 @@
 EAGLE AutoRouter Statistics:
 
-Job           : /Users/raffael/Desktop/Bioreactor/Eagle/PCB/anemometer/v4unrouted/anemo4.brd
+Job           : /Users/raffael/Desktop/Bioreactor/Eagle/PCB/anemometer/v4routed/anemo4.brd
 
-Start at      : 23:48:36 (31/07/14)
-End at        : 23:48:43 (31/07/14)
+Start at      : 23:49:33 (31/07/14)
+End at        : 23:49:40 (31/07/14)
 Elapsed time  : 00:00:07
 
 Signals       :    47   RoutingGrid: 10 mil  Layers: 2
@@ -13,7 +13,7 @@ Router memory :   558360
 
 Passname          :    Busses     Route Optimize1 Optimize2 Optimize3 Optimize4
 
-Time per pass     :  00:00:00  00:00:01  00:00:02  00:00:01  00:00:02  00:00:01
+Time per pass     :  00:00:01  00:00:01  00:00:01  00:00:02  00:00:01  00:00:01
 Number of Ripups  :         0         0         0         0         0         0
 max. Level        :         0         0         0         0         0         0
 max. Total        :         0         0         0         0         0         0

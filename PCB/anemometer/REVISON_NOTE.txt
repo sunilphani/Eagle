@@ -1,5 +1,14 @@
+V3.1
+
+Change RJ12 connector face
+Restrict via in gaz zone
+
+
+
+
 V4
 
 Compare Output Voltage to 4V
 Higher sensitivity through higher gain and lower voltage division rate at output.
 Vref=4V
+Ground separation and ground plane
