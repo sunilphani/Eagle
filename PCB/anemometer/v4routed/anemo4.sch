@@ -9690,14 +9690,14 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="P+8" library="supply1" deviceset="VCC" device=""/>
 <part name="U$1" library="mcp3424" deviceset="MCP3424(SO14)" device=""/>
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
-<part name="PT1K_1" library="resistor" deviceset="R-EU_" device="M1206" value="90.9"/>
+<part name="PT1K_1" library="resistor" deviceset="R-EU_" device="M1206" value="909"/>
 <part name="PT100_1" library="resistor" deviceset="R-EU_" device="M1206" value="90.9"/>
 <part name="PT100_2" library="resistor" deviceset="R-EU_" device="M1206" value="90.9"/>
 <part name="PT100_3" library="resistor" deviceset="R-EU_" device="M1206" value="90.9"/>
 <part name="PT100_4" library="resistor" deviceset="R-EU_" device="M1206" value="90.9"/>
-<part name="PT1K_2" library="resistor" deviceset="R-EU_" device="M1206" value="90.9"/>
-<part name="PT1K_3" library="resistor" deviceset="R-EU_" device="M1206" value="90.9"/>
-<part name="PT1K_4" library="resistor" deviceset="R-EU_" device="M1206" value="90.9"/>
+<part name="PT1K_2" library="resistor" deviceset="R-EU_" device="M1206" value="909"/>
+<part name="PT1K_3" library="resistor" deviceset="R-EU_" device="M1206" value="909"/>
+<part name="PT1K_4" library="resistor" deviceset="R-EU_" device="M1206" value="909"/>
 <part name="IC1" library="analog-devices" deviceset="AD620" device="R" value="AD8223"/>
 <part name="IC2" library="analog-devices" deviceset="AD620" device="R" value="AD8223"/>
 <part name="IC3" library="analog-devices" deviceset="AD620" device="R" value="AD8223"/>
@@ -9710,7 +9710,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="RL0" library="resistor" deviceset="R-EU_" device="M1206" value="1K"/>
 <part name="LED0" library="SparkFun" deviceset="LED" device="1206"/>
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
-<part name="FERRITE" library="rcl" deviceset="L-US" device="L3216C" value="80Ohm"/>
+<part name="FERRITE" library="rcl" deviceset="L-US" device="L3216C" value="80R Ferrite"/>
 <part name="P+11" library="supply1" deviceset="VCC" device="" value="+12V"/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="U$2" library="lpatiny" deviceset="STARGND" device=""/>

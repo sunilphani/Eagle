@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -2796,7 +2796,10 @@ design rules under a new name.</description>
 <element name="RUP2_3" library="resistor" package="M1206" value="100" x="67.31" y="39.37"/>
 <element name="RUP2_4" library="resistor" package="M1206" value="100" x="88.9" y="39.37"/>
 <element name="REF1" library="resistor" package="M1206" value="200k" x="71.755" y="74.93" rot="R90"/>
-<element name="REF2" library="resistor" package="M1206" value="100k" x="75.565" y="74.93" rot="R270"/>
+<element name="REF2" library="resistor" package="M1206" value="100k" x="75.565" y="74.93" smashed="yes" rot="R270">
+<attribute name="NAME" x="76.835" y="76.2" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="76.835" y="76.835" size="1.27" layer="27" rot="R270"/>
+</element>
 <element name="RT_1" library="resistor" package="M1206" value="90.9" x="24.13" y="44.45" rot="R180"/>
 <element name="RT_2" library="resistor" package="M1206" value="90.9" x="45.72" y="44.45" rot="R180"/>
 <element name="RT_3" library="resistor" package="M1206" value="90.9" x="67.31" y="44.45" rot="R180"/>
@@ -2833,14 +2836,14 @@ design rules under a new name.</description>
 <element name="C_TL072" library="rcl" package="C1206" value="100n" x="63.5" y="74.93"/>
 <element name="C_MCP1" library="rcl" package="C1206" value="10µ" x="22.86" y="77.47" rot="R180"/>
 <element name="U$1" library="mcp3424" package="14LDSOIC" value="MCP3424(SO14)" x="33.02" y="72.39" rot="R270"/>
-<element name="PT1K_1" library="resistor" package="M1206" value="90.9" x="19.05" y="30.48" rot="MR0"/>
+<element name="PT1K_1" library="resistor" package="M1206" value="909" x="19.05" y="30.48" rot="MR0"/>
 <element name="PT100_1" library="resistor" package="M1206" value="90.9" x="19.05" y="16.51" rot="MR0"/>
 <element name="PT100_2" library="resistor" package="M1206" value="90.9" x="40.64" y="16.51" rot="MR0"/>
 <element name="PT100_3" library="resistor" package="M1206" value="90.9" x="62.23" y="16.51" rot="MR0"/>
 <element name="PT100_4" library="resistor" package="M1206" value="90.9" x="83.82" y="16.51" rot="MR0"/>
-<element name="PT1K_2" library="resistor" package="M1206" value="90.9" x="40.64" y="30.48" rot="MR0"/>
-<element name="PT1K_3" library="resistor" package="M1206" value="90.9" x="62.23" y="30.48" rot="MR0"/>
-<element name="PT1K_4" library="resistor" package="M1206" value="90.9" x="83.82" y="30.48" rot="MR0"/>
+<element name="PT1K_2" library="resistor" package="M1206" value="909" x="40.64" y="30.48" rot="MR0"/>
+<element name="PT1K_3" library="resistor" package="M1206" value="909" x="62.23" y="30.48" rot="MR0"/>
+<element name="PT1K_4" library="resistor" package="M1206" value="909" x="83.82" y="30.48" rot="MR0"/>
 <element name="IC1" library="analog-devices" package="SO8" value="AD8223" x="20.32" y="53.34">
 <attribute name="OC_NEWARK" value="05F7109" x="20.32" y="53.34" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="AD620AR" x="20.32" y="53.34" size="1.778" layer="27" display="off"/>
@@ -2869,7 +2872,10 @@ design rules under a new name.</description>
 <element name="J2" library="lpatiny" package="RJ12-STRAIGHT-I2C" value="RJ12STRAIGHT-I2C" x="7.62" y="69.85" rot="MR90"/>
 <element name="RL0" library="resistor" package="M1206" value="1K" x="76.2" y="64.77"/>
 <element name="LED0" library="SparkFun" package="LED-1206" value="" x="69.85" y="64.77" rot="R180"/>
-<element name="FERRITE" library="rcl" package="L3216C" value="80Ohm" x="67.945" y="76.2" rot="R270"/>
+<element name="FERRITE" library="rcl" package="L3216C" value="80R Ferrite" x="67.945" y="76.2" smashed="yes" rot="R270">
+<attribute name="NAME" x="69.85" y="78.105" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="69.85" y="70.485" size="1.27" layer="27" rot="R90"/>
+</element>
 <element name="U$2" library="lpatiny" package="STAR" value="STARGND" x="11.43" y="73.66" rot="MR270"/>
 </elements>
 <signals>
