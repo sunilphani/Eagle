@@ -6702,7 +6702,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="52.197" y="14.097" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="U$2" library="lpatiny" package="STAR" value="STARGND" x="22.8854" y="20.6248" rot="MR0"/>
-<element name="C16" library="rcl" package="C1206" value="100uF" x="50.2158" y="27.7368" smashed="yes" rot="R90">
+<element name="C16" library="rcl" package="C1206" value="100nF" x="50.2158" y="27.7368" smashed="yes" rot="R90">
 <attribute name="VALUE" x="49.5808" y="25.1968" size="1.016" layer="27" rot="R90"/>
 </element>
 <element name="L1" library="rcl" package="L2012C" value="10uH" x="51.435" y="31.115" smashed="yes">
