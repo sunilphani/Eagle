@@ -1,0 +1,3 @@
+		Error reading C:\Users\que\Dropbox\proto_at90\gerber\v1.dri:
+
+Line 1: Invalid parameter "ENERATED BY EAGLE CAM PROCESSOR 6.6.0DRILL STATION INFO FILE: C:/USERS/QUE/DROPBOx/PROTO_AT90/V1.DRI DATE              : 8/4/2014 10:03:36 AM DRILLS            : GENERATED DEVICE            : ExCELLON DRILL STATIONPARAMETER SETTINGS: TOLERANCE DRILL + :  0.00 "
