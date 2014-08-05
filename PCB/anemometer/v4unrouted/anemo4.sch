@@ -9614,28 +9614,28 @@ In this library the device names are the same as the pin names of the symbols, t
 </class>
 </classes>
 <parts>
-<part name="RG1" library="resistor" deviceset="R-EU_" device="M1206" value="91"/>
-<part name="RUP1" library="resistor" deviceset="R-EU_" device="M1206" value="10"/>
-<part name="RG2" library="resistor" deviceset="R-EU_" device="M1206" value="91"/>
-<part name="RG3" library="resistor" deviceset="R-EU_" device="M1206" value="91"/>
-<part name="RG4" library="resistor" deviceset="R-EU_" device="M1206" value="91"/>
-<part name="RUP2" library="resistor" deviceset="R-EU_" device="M1206" value="10"/>
-<part name="RUP3" library="resistor" deviceset="R-EU_" device="M1206" value="10"/>
-<part name="RUP4" library="resistor" deviceset="R-EU_" device="M1206" value="10"/>
-<part name="RUP2_1" library="resistor" deviceset="R-EU_" device="M1206" value="100"/>
-<part name="RUP2_2" library="resistor" deviceset="R-EU_" device="M1206" value="100"/>
-<part name="RUP2_3" library="resistor" deviceset="R-EU_" device="M1206" value="100"/>
-<part name="RUP2_4" library="resistor" deviceset="R-EU_" device="M1206" value="100"/>
+<part name="RG1" library="resistor" deviceset="R-EU_" device="M1206" value="91 0.1%"/>
+<part name="RUP1" library="resistor" deviceset="R-EU_" device="M1206" value="10 0.1%"/>
+<part name="RG2" library="resistor" deviceset="R-EU_" device="M1206" value="91 0.1%"/>
+<part name="RG3" library="resistor" deviceset="R-EU_" device="M1206" value="91 0.1%"/>
+<part name="RG4" library="resistor" deviceset="R-EU_" device="M1206" value="91 0.1%"/>
+<part name="RUP2" library="resistor" deviceset="R-EU_" device="M1206" value="10 0.1%"/>
+<part name="RUP3" library="resistor" deviceset="R-EU_" device="M1206" value="10 0.1%"/>
+<part name="RUP4" library="resistor" deviceset="R-EU_" device="M1206" value="10 0.1%"/>
+<part name="RUP2_1" library="resistor" deviceset="R-EU_" device="M1206" value="100 0.1%"/>
+<part name="RUP2_2" library="resistor" deviceset="R-EU_" device="M1206" value="100 0.1%"/>
+<part name="RUP2_3" library="resistor" deviceset="R-EU_" device="M1206" value="100 0.1%"/>
+<part name="RUP2_4" library="resistor" deviceset="R-EU_" device="M1206" value="100 0.1%"/>
 <part name="REF1" library="resistor" deviceset="R-EU_" device="M1206" value="200k"/>
 <part name="REF2" library="resistor" deviceset="R-EU_" device="M1206" value="100k"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="RT_1" library="resistor" deviceset="R-EU_" device="M1206" value="90.9"/>
-<part name="RT_2" library="resistor" deviceset="R-EU_" device="M1206" value="90.9"/>
-<part name="RT_3" library="resistor" deviceset="R-EU_" device="M1206" value="90.9"/>
-<part name="RT_4" library="resistor" deviceset="R-EU_" device="M1206" value="90.9"/>
+<part name="RT_1" library="resistor" deviceset="R-EU_" device="M1206" value="91 0.1%"/>
+<part name="RT_2" library="resistor" deviceset="R-EU_" device="M1206" value="91 0.1%"/>
+<part name="RT_3" library="resistor" deviceset="R-EU_" device="M1206" value="91 0.1%"/>
+<part name="RT_4" library="resistor" deviceset="R-EU_" device="M1206" value="91 0.1%"/>
 <part name="RF1" library="resistor" deviceset="R-EU_" device="M1206" value="100"/>
 <part name="RF2" library="resistor" deviceset="R-EU_" device="M1206" value="100"/>
 <part name="RF3" library="resistor" deviceset="R-EU_" device="M1206" value="100"/>
@@ -9690,14 +9690,14 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="P+8" library="supply1" deviceset="VCC" device=""/>
 <part name="U$1" library="mcp3424" deviceset="MCP3424(SO14)" device=""/>
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
-<part name="PT1K_1" library="resistor" deviceset="R-EU_" device="M1206" value="90.9"/>
-<part name="PT100_1" library="resistor" deviceset="R-EU_" device="M1206" value="90.9"/>
-<part name="PT100_2" library="resistor" deviceset="R-EU_" device="M1206" value="90.9"/>
-<part name="PT100_3" library="resistor" deviceset="R-EU_" device="M1206" value="90.9"/>
-<part name="PT100_4" library="resistor" deviceset="R-EU_" device="M1206" value="90.9"/>
-<part name="PT1K_2" library="resistor" deviceset="R-EU_" device="M1206" value="90.9"/>
-<part name="PT1K_3" library="resistor" deviceset="R-EU_" device="M1206" value="90.9"/>
-<part name="PT1K_4" library="resistor" deviceset="R-EU_" device="M1206" value="90.9"/>
+<part name="PT1K_1" library="resistor" deviceset="R-EU_" device="M1206" value="PT1000"/>
+<part name="PT100_1" library="resistor" deviceset="R-EU_" device="M1206" value="PT100"/>
+<part name="PT100_2" library="resistor" deviceset="R-EU_" device="M1206" value="PT100"/>
+<part name="PT100_3" library="resistor" deviceset="R-EU_" device="M1206" value="PT100"/>
+<part name="PT100_4" library="resistor" deviceset="R-EU_" device="M1206" value="PT100"/>
+<part name="PT1K_2" library="resistor" deviceset="R-EU_" device="M1206" value="PT1000"/>
+<part name="PT1K_3" library="resistor" deviceset="R-EU_" device="M1206" value="PT1000"/>
+<part name="PT1K_4" library="resistor" deviceset="R-EU_" device="M1206" value="PT1000"/>
 <part name="IC1" library="analog-devices" deviceset="AD620" device="R" value="AD8223"/>
 <part name="IC2" library="analog-devices" deviceset="AD620" device="R" value="AD8223"/>
 <part name="IC3" library="analog-devices" deviceset="AD620" device="R" value="AD8223"/>

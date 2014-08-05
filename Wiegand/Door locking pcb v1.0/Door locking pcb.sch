@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="7.0.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -9909,9 +9909,6 @@ Source: http://www.infineon.com/dgdl/BSP613P_Rev2.4.pdf</description>
 <part name="U$7" library="MyPOW" deviceset="VUSB" device=""/>
 <part name="C12" library="rcl" deviceset="C-EU" device="C1206" value="100nF"/>
 <part name="D4" library="lpatiny" deviceset="1N581*" device="D1206" value="1N581D1206"/>
-<part name="RL1" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
-<part name="RL7" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
-<part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="U$4" library="adafruit" deviceset="ATMEGA32U4" device="-AU"/>
 <part name="GND28" library="supply1" deviceset="GND" device=""/>
 <part name="RESET1" library="lpatiny" deviceset="TAC_SWITCH" device="SMD" value="Reset uC"/>
@@ -9953,8 +9950,6 @@ Source: http://www.infineon.com/dgdl/BSP613P_Rev2.4.pdf</description>
 <part name="CFG" library="lpatiny" deviceset="TAC_SWITCH" device="SMD" value="Configure"/>
 <part name="GND39" library="supply1" deviceset="GND" device=""/>
 <part name="J7" library="lpatiny" deviceset="22-?-02" device="" value="22--02"/>
-<part name="LED13" library="adafruit" deviceset="LED" device="CHIPLED_1206" value="RED"/>
-<part name="LED14" library="adafruit" deviceset="LED" device="CHIPLED_1206" value="GREEN"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="RL5" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
@@ -9973,6 +9968,8 @@ Source: http://www.infineon.com/dgdl/BSP613P_Rev2.4.pdf</description>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="Q3" library="infineon" deviceset="BSP613P" device="" value="BSP75"/>
+<part name="Q1" library="infineon" deviceset="BSP613P" device="" value="BSP75"/>
+<part name="GND6" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10025,11 +10022,6 @@ Source: http://www.infineon.com/dgdl/BSP613P_Rev2.4.pdf</description>
 <instance part="U$7" gate="G$1" x="238.76" y="144.78"/>
 <instance part="C12" gate="G$1" x="284.48" y="144.78" rot="MR180"/>
 <instance part="D4" gate="G$1" x="248.92" y="142.24"/>
-<instance part="RL1" gate="G$1" x="45.72" y="165.1" rot="MR180"/>
-<instance part="RL7" gate="G$1" x="45.72" y="149.86" rot="MR180"/>
-<instance part="GND1" gate="1" x="48.26" y="154.94" smashed="yes">
-<attribute name="VALUE" x="46.355" y="153.035" size="1.27" layer="96"/>
-</instance>
 <instance part="U$4" gate="G$1" x="220.98" y="45.72"/>
 <instance part="GND28" gate="1" x="144.78" y="73.66"/>
 <instance part="RESET1" gate="S" x="134.62" y="83.82" rot="MR270"/>
@@ -10076,8 +10068,6 @@ Source: http://www.infineon.com/dgdl/BSP613P_Rev2.4.pdf</description>
 <instance part="GND39" gate="1" x="459.74" y="109.22"/>
 <instance part="J7" gate="-1" x="17.78" y="71.12" rot="MR0"/>
 <instance part="J7" gate="-2" x="17.78" y="66.04" rot="MR0"/>
-<instance part="LED13" gate="G$1" x="60.96" y="162.56"/>
-<instance part="LED14" gate="G$1" x="60.96" y="152.4" rot="R180"/>
 <instance part="GND5" gate="1" x="-33.02" y="45.72"/>
 <instance part="RL5" gate="G$1" x="-5.08" y="254" rot="MR180"/>
 <instance part="GND21" gate="1" x="-2.54" y="259.08" smashed="yes">
@@ -10103,6 +10093,8 @@ Source: http://www.infineon.com/dgdl/BSP613P_Rev2.4.pdf</description>
 <instance part="P+2" gate="1" x="25.4" y="101.6"/>
 <instance part="GND3" gate="1" x="25.4" y="-30.48"/>
 <instance part="Q3" gate="G$1" x="27.94" y="-12.7" rot="MR0"/>
+<instance part="Q1" gate="G$1" x="-27.94" y="-12.7" rot="MR0"/>
+<instance part="GND6" gate="1" x="-30.48" y="-35.56"/>
 </instances>
 <busses>
 </busses>
@@ -10181,14 +10173,6 @@ Source: http://www.infineon.com/dgdl/BSP613P_Rev2.4.pdf</description>
 <pinref part="C12" gate="G$1" pin="1"/>
 <wire x1="284.48" y1="142.24" x2="276.86" y2="142.24" width="0.1524" layer="91"/>
 <junction x="284.48" y="142.24"/>
-</segment>
-<segment>
-<wire x1="60.96" y1="157.48" x2="48.26" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="GND1" gate="1" pin="GND"/>
-<pinref part="LED13" gate="G$1" pin="C"/>
-<pinref part="LED14" gate="G$1" pin="C"/>
-<junction x="60.96" y="157.48"/>
-<junction x="48.26" y="157.48"/>
 </segment>
 <segment>
 <wire x1="137.16" y1="76.2" x2="144.78" y2="76.2" width="0.1524" layer="91"/>
@@ -10292,6 +10276,11 @@ Source: http://www.infineon.com/dgdl/BSP613P_Rev2.4.pdf</description>
 <wire x1="25.4" y1="-27.94" x2="25.4" y2="-17.78" width="0.1524" layer="91"/>
 <pinref part="Q3" gate="G$1" pin="S"/>
 </segment>
+<segment>
+<pinref part="GND6" gate="1" pin="GND"/>
+<wire x1="-30.48" y1="-33.02" x2="-30.48" y2="-17.78" width="0.1524" layer="91"/>
+<pinref part="Q1" gate="G$1" pin="S"/>
+</segment>
 </net>
 <net name="SCK" class="0">
 <segment>
@@ -10368,11 +10357,6 @@ Source: http://www.infineon.com/dgdl/BSP613P_Rev2.4.pdf</description>
 </net>
 <net name="RD-" class="0">
 <segment>
-<pinref part="RL1" gate="G$1" pin="1"/>
-<wire x1="40.64" y1="165.1" x2="35.56" y2="165.1" width="0.1524" layer="91"/>
-<label x="30.48" y="165.1" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U$4" gate="G$1" pin="D-"/>
 <wire x1="198.12" y1="60.96" x2="180.34" y2="60.96" width="0.1524" layer="91"/>
 <label x="180.34" y="60.96" size="1.778" layer="95"/>
@@ -10384,11 +10368,6 @@ Source: http://www.infineon.com/dgdl/BSP613P_Rev2.4.pdf</description>
 </segment>
 </net>
 <net name="RD+" class="0">
-<segment>
-<pinref part="RL7" gate="G$1" pin="1"/>
-<wire x1="40.64" y1="149.86" x2="35.56" y2="149.86" width="0.1524" layer="91"/>
-<label x="30.48" y="149.86" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U$4" gate="G$1" pin="D+"/>
 <wire x1="198.12" y1="58.42" x2="180.34" y2="58.42" width="0.1524" layer="91"/>
@@ -10547,12 +10526,8 @@ Source: http://www.infineon.com/dgdl/BSP613P_Rev2.4.pdf</description>
 <label x="256.54" y="25.4" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="-53.34" y1="22.86" x2="-20.32" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="PIN3" gate="G$1" pin="1"/>
-</segment>
-<segment>
-<wire x1="-53.34" y1="15.24" x2="-20.32" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="PIN4" gate="G$1" pin="1"/>
+<pinref part="Q1" gate="G$1" pin="G"/>
+<wire x1="-5.08" y1="-15.24" x2="-25.4" y2="-15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SDA" class="0">
@@ -10660,22 +10635,6 @@ Source: http://www.infineon.com/dgdl/BSP613P_Rev2.4.pdf</description>
 <pinref part="X4" gate="G$1" pin="3"/>
 <wire x1="-27.94" y1="160.02" x2="-22.86" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="R24" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="RL1" gate="G$1" pin="2"/>
-<wire x1="50.8" y1="165.1" x2="60.96" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="LED13" gate="G$1" pin="A"/>
-<junction x="60.96" y="165.1"/>
-</segment>
-</net>
-<net name="N$14" class="0">
-<segment>
-<pinref part="RL7" gate="G$1" pin="2"/>
-<wire x1="60.96" y1="149.86" x2="50.8" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="LED14" gate="G$1" pin="A"/>
-<junction x="60.96" y="149.86"/>
 </segment>
 </net>
 <net name="A0" class="0">
@@ -10863,6 +10822,18 @@ Source: http://www.infineon.com/dgdl/BSP613P_Rev2.4.pdf</description>
 <pinref part="Q3" gate="G$1" pin="D@1"/>
 <wire x1="25.4" y1="-7.62" x2="25.4" y2="0" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="0" x2="20.32" y2="0" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="Q1" gate="G$1" pin="D@1"/>
+<wire x1="-30.48" y1="-7.62" x2="-30.48" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="PIN4" gate="G$1" pin="1"/>
+<wire x1="-30.48" y1="15.24" x2="-53.34" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="-30.48" y1="15.24" x2="-30.48" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="PIN3" gate="G$1" pin="1"/>
+<wire x1="-30.48" y1="22.86" x2="-53.34" y2="22.86" width="0.1524" layer="91"/>
+<junction x="-30.48" y="15.24"/>
 </segment>
 </net>
 </nets>

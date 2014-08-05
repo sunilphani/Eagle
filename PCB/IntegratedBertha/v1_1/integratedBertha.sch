@@ -12832,7 +12832,7 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/37793330023930AD620_e.pd
 <part name="DGND13" library="supply2" deviceset="DGND" device="" value="DGND"/>
 <part name="AGND3" library="supply2" deviceset="AGND" device="" value="AGND"/>
 <part name="AGND4" library="supply2" deviceset="AGND" device="" value="AGND"/>
-<part name="C16" library="rcl" deviceset="C-EU" device="C1206" value="100uF"/>
+<part name="C16" library="rcl" deviceset="C-EU" device="C1206" value="100nF"/>
 <part name="L1" library="rcl" deviceset="L-US" device="L2012C" value="10uH"/>
 <part name="AGND6" library="supply2" deviceset="AGND" device="" value="AGND"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>

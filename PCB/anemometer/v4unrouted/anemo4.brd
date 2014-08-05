@@ -2781,24 +2781,24 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="RG1" library="resistor" package="M1206" value="91" x="15.24" y="53.34" rot="R270"/>
-<element name="RUP1" library="resistor" package="M1206" value="10" x="17.78" y="44.45" rot="R270"/>
-<element name="RG2" library="resistor" package="M1206" value="91" x="36.83" y="53.34" rot="R270"/>
-<element name="RG3" library="resistor" package="M1206" value="91" x="58.42" y="53.34" rot="R270"/>
-<element name="RG4" library="resistor" package="M1206" value="91" x="80.01" y="53.34" rot="R270"/>
-<element name="RUP2" library="resistor" package="M1206" value="10" x="39.37" y="44.45" rot="R270"/>
-<element name="RUP3" library="resistor" package="M1206" value="10" x="60.96" y="44.45" rot="R270"/>
-<element name="RUP4" library="resistor" package="M1206" value="10" x="82.55" y="44.45" rot="R270"/>
-<element name="RUP2_1" library="resistor" package="M1206" value="100" x="24.13" y="39.37"/>
-<element name="RUP2_2" library="resistor" package="M1206" value="100" x="45.72" y="39.37"/>
-<element name="RUP2_3" library="resistor" package="M1206" value="100" x="67.31" y="39.37"/>
-<element name="RUP2_4" library="resistor" package="M1206" value="100" x="88.9" y="39.37"/>
+<element name="RG1" library="resistor" package="M1206" value="91 0.1%" x="15.24" y="53.34" rot="R270"/>
+<element name="RUP1" library="resistor" package="M1206" value="10 0.1%" x="17.78" y="44.45" rot="R270"/>
+<element name="RG2" library="resistor" package="M1206" value="91 0.1%" x="36.83" y="53.34" rot="R270"/>
+<element name="RG3" library="resistor" package="M1206" value="91 0.1%" x="58.42" y="53.34" rot="R270"/>
+<element name="RG4" library="resistor" package="M1206" value="91 0.1%" x="80.01" y="53.34" rot="R270"/>
+<element name="RUP2" library="resistor" package="M1206" value="10 0.1%" x="39.37" y="44.45" rot="R270"/>
+<element name="RUP3" library="resistor" package="M1206" value="10 0.1%" x="60.96" y="44.45" rot="R270"/>
+<element name="RUP4" library="resistor" package="M1206" value="10 0.1%" x="82.55" y="44.45" rot="R270"/>
+<element name="RUP2_1" library="resistor" package="M1206" value="100 0.1%" x="24.13" y="39.37"/>
+<element name="RUP2_2" library="resistor" package="M1206" value="100 0.1%" x="45.72" y="39.37"/>
+<element name="RUP2_3" library="resistor" package="M1206" value="100 0.1%" x="67.31" y="39.37"/>
+<element name="RUP2_4" library="resistor" package="M1206" value="100 0.1%" x="88.9" y="39.37"/>
 <element name="REF1" library="resistor" package="M1206" value="200k" x="71.755" y="74.93" rot="R90"/>
 <element name="REF2" library="resistor" package="M1206" value="100k" x="75.565" y="74.93" rot="R270"/>
-<element name="RT_1" library="resistor" package="M1206" value="90.9" x="24.13" y="44.45" rot="R180"/>
-<element name="RT_2" library="resistor" package="M1206" value="90.9" x="45.72" y="44.45" rot="R180"/>
-<element name="RT_3" library="resistor" package="M1206" value="90.9" x="67.31" y="44.45" rot="R180"/>
-<element name="RT_4" library="resistor" package="M1206" value="90.9" x="88.9" y="44.45" rot="R180"/>
+<element name="RT_1" library="resistor" package="M1206" value="91 0.1%" x="24.13" y="44.45" rot="R180"/>
+<element name="RT_2" library="resistor" package="M1206" value="91 0.1%" x="45.72" y="44.45" rot="R180"/>
+<element name="RT_3" library="resistor" package="M1206" value="91 0.1%" x="67.31" y="44.45" rot="R180"/>
+<element name="RT_4" library="resistor" package="M1206" value="91 0.1%" x="88.9" y="44.45" rot="R180"/>
 <element name="RF1" library="resistor" package="M1206" value="100" x="10.16" y="58.42"/>
 <element name="RF2" library="resistor" package="M1206" value="100" x="31.75" y="58.42"/>
 <element name="RF3" library="resistor" package="M1206" value="100" x="53.34" y="58.42"/>
@@ -2831,14 +2831,14 @@ design rules under a new name.</description>
 <element name="C_TL072" library="rcl" package="C1206" value="100n" x="63.5" y="74.93"/>
 <element name="C_MCP1" library="rcl" package="C1206" value="10µ" x="22.86" y="77.47" rot="R180"/>
 <element name="U$1" library="mcp3424" package="14LDSOIC" value="MCP3424(SO14)" x="33.02" y="72.39" rot="R270"/>
-<element name="PT1K_1" library="resistor" package="M1206" value="90.9" x="19.05" y="30.48" rot="MR0"/>
-<element name="PT100_1" library="resistor" package="M1206" value="90.9" x="19.05" y="16.51" rot="MR0"/>
-<element name="PT100_2" library="resistor" package="M1206" value="90.9" x="40.64" y="16.51" rot="MR0"/>
-<element name="PT100_3" library="resistor" package="M1206" value="90.9" x="62.23" y="16.51" rot="MR0"/>
-<element name="PT100_4" library="resistor" package="M1206" value="90.9" x="83.82" y="16.51" rot="MR0"/>
-<element name="PT1K_2" library="resistor" package="M1206" value="90.9" x="40.64" y="30.48" rot="MR0"/>
-<element name="PT1K_3" library="resistor" package="M1206" value="90.9" x="62.23" y="30.48" rot="MR0"/>
-<element name="PT1K_4" library="resistor" package="M1206" value="90.9" x="83.82" y="30.48" rot="MR0"/>
+<element name="PT1K_1" library="resistor" package="M1206" value="PT1000" x="19.05" y="30.48" rot="MR0"/>
+<element name="PT100_1" library="resistor" package="M1206" value="PT100" x="19.05" y="16.51" rot="MR0"/>
+<element name="PT100_2" library="resistor" package="M1206" value="PT100" x="40.64" y="16.51" rot="MR0"/>
+<element name="PT100_3" library="resistor" package="M1206" value="PT100" x="62.23" y="16.51" rot="MR0"/>
+<element name="PT100_4" library="resistor" package="M1206" value="PT100" x="83.82" y="16.51" rot="MR0"/>
+<element name="PT1K_2" library="resistor" package="M1206" value="PT1000" x="40.64" y="30.48" rot="MR0"/>
+<element name="PT1K_3" library="resistor" package="M1206" value="PT1000" x="62.23" y="30.48" rot="MR0"/>
+<element name="PT1K_4" library="resistor" package="M1206" value="PT1000" x="83.82" y="30.48" rot="MR0"/>
 <element name="IC1" library="analog-devices" package="SO8" value="AD8223" x="20.32" y="53.34">
 <attribute name="OC_NEWARK" value="05F7109" x="20.32" y="53.34" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="AD620AR" x="20.32" y="53.34" size="1.778" layer="27" display="off"/>
