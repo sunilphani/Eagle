@@ -1,0 +1,18 @@
+"Qty";"Value";"Device";"Package";"Parts";"Description";"";
+"5";"";"PINHD-1X1";"1X01";"V1, V2, V3, V4, V5";"PIN HEADER";"";
+"1";"0.000010";"C-EUC1206";"C1206";"C5";"CAPACITOR, European symbol";"";
+"4";"100k";"R-EU_R1206";"R1206";"R2, R3, R4, R6";"RESISTOR, European symbol";"";
+"4";"100n";"C-EUC1206";"C1206";"C1, C2, C3, C6";"CAPACITOR, European symbol";"";
+"1";"110k";"R-EU_R1206";"R1206";"R9";"RESISTOR, European symbol";"";
+"1";"124k";"R-EU_R1206";"R1206";"R1";"RESISTOR, European symbol";"";
+"1";"1k";"R-EU_R1206";"R1206";"R7";"RESISTOR, European symbol";"";
+"1";"2.2k";"R-EU_R1206";"R1206";"R8";"RESISTOR, European symbol";"";
+"1";"22000n";"C-EUC1206";"C1206";"C4";"CAPACITOR, European symbol";"";
+"1";"240k";"R-EU_R1206";"R1206";"R5";"RESISTOR, European symbol";"";
+"1";"750";"R-EU_R1206";"R1206";"R10";"RESISTOR, European symbol";"";
+"1";"BNC-VERTICAL";"BNC-VERTICAL";"BNC-VERTICAL";"U$1";"";"";
+"1";"MCP3425";"MCP3425";"SOT-23-6";"U$5";"";"";
+"1";"RJ12STRAIGHT";"RJ12STRAIGHT";"RJ12-STRAIGHT";"J1";"CORCOM Modular RJ Jacks No Shield";"";
+"1";"RJ12STRAIGHT-I2C";"RJ12STRAIGHT-I2C";"RJ12-STRAIGHT-I2C";"J2";"CORCOM Modular RJ Jacks No Shield";"";
+"1";"TL084D";"TL084D";"SO14";"IC2";"OP AMP";"";
+"1";"VERTICAL-JACK";"VERTICAL-JACK";"VERTICAL-JACK";"U$3";"";"";

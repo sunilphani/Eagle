@@ -343,10 +343,10 @@ UsedLibrary="/Applications/EAGLE-6.6.0/lbr/xilinx-xc9.lbr"
 UsedLibrary="/Applications/EAGLE-6.6.0/lbr/xilinx-xcv.lbr"
 UsedLibrary="/Applications/EAGLE-6.6.0/lbr/zetex.lbr"
 UsedLibrary="/Applications/EAGLE-6.6.0/lbr/zilog.lbr"
+UsedLibrary="/Users/raffael/Desktop/Octanis/octanis-pcb/Octanis1-Electronics/lib/DRV8834.lbr"
 UsedLibrary="/Users/raffael/Desktop/Octanis/octanis-pcb/Octanis1-Electronics/lib/bq24210_dqc_10.lbr"
 UsedLibrary="/Users/raffael/Desktop/Octanis/octanis-pcb/Octanis1-Electronics/lib/bq27510_drz_12.lbr"
 UsedLibrary="Libraries/lomasenlibraries (3).lbr"
-UsedLibrary="/Users/raffael/Desktop/Octanis/octanis-pcb/Octanis1-Electronics/lib/DRV8834.lbr"
 
 [Win_1]
 Type="Control Panel"
