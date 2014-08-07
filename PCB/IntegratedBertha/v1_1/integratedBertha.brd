@@ -8,16 +8,16 @@
 </settings>
 <grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="12.5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
@@ -44,8 +44,8 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="12" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -88,8 +88,8 @@
 <layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
-<layer number="201" name="201bmp" color="15" fill="1" visible="no" active="yes"/>
-<layer number="202" name="202bmp" color="15" fill="1" visible="no" active="yes"/>
+<layer number="201" name="201bmp" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="202" name="202bmp" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="203" name="203bmp" color="2" fill="10" visible="no" active="yes"/>
 <layer number="204" name="204bmp" color="7" fill="1" visible="no" active="yes"/>
 <layer number="205" name="205bmp" color="7" fill="1" visible="no" active="yes"/>
@@ -126,8 +126,8 @@
 <wire x1="0" y1="81.778" x2="0" y2="-2.794" width="0" layer="20"/>
 <text x="63.373" y="35.941" size="1.016" layer="25" rot="R180">1</text>
 <text x="72.771" y="43.053" size="1.016" layer="26" rot="MR0">TX/RX</text>
-<text x="25.935940625" y="58.63463125" size="1.778" layer="51" rot="R180">BioReactor</text>
-<text x="43.4124125" y="55.6285375" size="1.778" layer="51" rot="R180">Integrated Bertha v1.1
+<text x="25.935940625" y="58.63463125" size="1.778" layer="27" rot="R180">BioReactor</text>
+<text x="43.4124125" y="55.6285375" size="1.778" layer="27" rot="R180">Integrated Bertha v1.1
 Control Board </text>
 <rectangle x1="49.93005" y1="33.50895" x2="75.91425" y2="33.54705" layer="203" rot="R180"/>
 <rectangle x1="49.93005" y1="33.54705" x2="75.91425" y2="33.58515" layer="203" rot="R180"/>
