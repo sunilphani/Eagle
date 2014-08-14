@@ -7488,22 +7488,22 @@ Source: YH-55-10.pdf</description>
 <pad name="IO5" x="8.255" y="6.35" drill="0.7" diameter="1.016" shape="long"/>
 <pad name="IO4" x="8.255" y="7.62" drill="0.7" diameter="1.016" shape="long"/>
 <pad name="IO3" x="8.255" y="8.89" drill="0.7" diameter="1.016" shape="long"/>
-<text x="-9.5734" y="-6.0571" size="0.8128" layer="25" font="vector" rot="R180">IO9</text>
-<text x="-9.5226" y="-4.8125" size="0.8128" layer="25" font="vector" rot="R180">IO8</text>
-<text x="-9.5416" y="-7.3285" size="0.8128" layer="25" font="vector" rot="R180">CFG</text>
-<text x="-9.4734" y="-1.0371" size="0.8128" layer="25" font="vector" rot="R180">ALM</text>
-<text x="-9.4226" y="0.2075" size="0.8128" layer="25" font="vector" rot="R180">NET</text>
-<text x="-9.4416" y="-2.3085" size="0.8128" layer="25" font="vector" rot="R180">SLP</text>
-<text x="-9.3416" y="1.4415" size="0.8128" layer="25" font="vector" rot="R180">RNU</text>
-<text x="-9.3416" y="2.7115" size="0.8128" layer="25" font="vector" rot="R180">AD4</text>
-<text x="12.9966" y="-4.6096" size="0.8128" layer="25" font="vector" rot="R180">RX2</text>
-<text x="13.1474" y="-3.165" size="0.8128" layer="25" font="vector" rot="R180">TX2</text>
-<text x="13.1284" y="-7.2285" size="0.8128" layer="25" font="vector" rot="R180">RST</text>
-<text x="13.1966" y="-0.6196" size="0.8128" layer="25" font="vector" rot="R180">TX1</text>
-<text x="13.2474" y="0.625" size="0.8128" layer="25" font="vector" rot="R180">RX1</text>
-<text x="13.8634" y="-1.891" size="0.8128" layer="25" font="vector" rot="R180">SGND</text>
-<text x="13.3284" y="1.859" size="0.8128" layer="25" font="vector" rot="R180">VCC</text>
-<text x="13.3284" y="3.129" size="0.8128" layer="25" font="vector" rot="R180">GND</text>
+<text x="-8.89" y="-6.0325" size="0.8128" layer="21" font="vector" rot="R180">IO9</text>
+<text x="-8.89" y="-4.7625" size="0.8128" layer="21" font="vector" rot="R180">IO8</text>
+<text x="-8.89" y="-7.3025" size="0.8128" layer="21" font="vector" rot="R180">CFG</text>
+<text x="-8.89" y="-0.9525" size="0.8128" layer="21" font="vector" rot="R180">ALM</text>
+<text x="-8.89" y="0.3175" size="0.8128" layer="21" font="vector" rot="R180">NET</text>
+<text x="-8.89" y="-2.2225" size="0.8128" layer="21" font="vector" rot="R180">SLP</text>
+<text x="-8.89" y="1.5875" size="0.8128" layer="21" font="vector" rot="R180">RUN</text>
+<text x="-8.89" y="2.8575" size="0.8128" layer="21" font="vector" rot="R180">AD4</text>
+<text x="12.7" y="-4.7625" size="0.8128" layer="21" font="vector" rot="R180">RX2</text>
+<text x="12.7" y="-3.4925" size="0.8128" layer="21" font="vector" rot="R180">TX2</text>
+<text x="12.7" y="-7.3025" size="0.8128" layer="21" font="vector" rot="R180">RST</text>
+<text x="12.7" y="-0.9525" size="0.8128" layer="21" font="vector" rot="R180">TX1</text>
+<text x="12.7" y="0.3175" size="0.8128" layer="21" font="vector" rot="R180">RX1</text>
+<text x="13.335" y="-2.2225" size="0.8128" layer="21" font="vector" rot="R180">SGND</text>
+<text x="12.7" y="1.5875" size="0.8128" layer="21" font="vector" rot="R180">VCC</text>
+<text x="12.7" y="2.8575" size="0.8128" layer="21" font="vector" rot="R180">GND</text>
 <text x="-2.7092" y="8.663" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.7092" y="-11.784" size="1.27" layer="27">&gt;VALUE</text>
 </package>
@@ -7531,10 +7531,10 @@ Source: YH-55-10.pdf</description>
 <hole x="5.08" y="-1.27" drill="3.2512"/>
 </package>
 <package name="STAR">
-<smd name="AGND" x="0.635" y="-0.635" dx="0" dy="0" layer="1" roundness="5" rot="R90"/>
-<smd name="DGND" x="0.635" y="0.635" dx="0" dy="0" layer="1" roundness="5" rot="R90"/>
+<smd name="AGND" x="0.635" y="-0.635" dx="0.3048" dy="0.1524" layer="1" roundness="5" rot="R90"/>
+<smd name="DGND" x="0.635" y="0.635" dx="0.3048" dy="0.1524" layer="1" roundness="5" rot="R90"/>
 <rectangle x1="0" y1="-1.27" x2="1.27" y2="1.27" layer="1"/>
-<smd name="GND" x="0.635" y="0" dx="0" dy="0" layer="1" roundness="5" rot="R180"/>
+<smd name="GND" x="0.635" y="0" dx="0.3048" dy="0.1524" layer="1" roundness="5" rot="R180"/>
 </package>
 </packages>
 <symbols>
@@ -12681,7 +12681,7 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/37793330023930AD620_e.pd
 <part name="P+8" library="supply1" deviceset="+12V" device=""/>
 <part name="LED2" library="adafruit" deviceset="LED" device="CHIPLED_1206" value="Blue"/>
 <part name="R25" library="rcl" deviceset="R-EU_" device="R0805" value="1k"/>
-<part name="LED3" library="adafruit" deviceset="LED" device="CHIPLED_1206" value="RED"/>
+<part name="3.3V-OK" library="adafruit" deviceset="LED" device="CHIPLED_1206" value="RED"/>
 <part name="R27" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
 <part name="C5" library="rcl" deviceset="C-EU" device="C1206" value="10uF"/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
@@ -12714,14 +12714,14 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/37793330023930AD620_e.pd
 <part name="LED8" library="adafruit" deviceset="LED" device="CHIPLED_1206" value="Blue"/>
 <part name="R7" library="rcl" deviceset="R-EU_" device="R0805" value="1k"/>
 <part name="U$6" library="lpatiny" deviceset="KPJX-4S-S" device="" value="KPJX-4S-S"/>
-<part name="LED10" library="adafruit" deviceset="LED" device="CHIPLED_1206" value="RED"/>
+<part name="12V-OK" library="adafruit" deviceset="LED" device="CHIPLED_1206" value="RED"/>
 <part name="RL3" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
 <part name="P+17" library="supply1" deviceset="+12V" device=""/>
 <part name="C11" library="rcl" deviceset="C-EU" device="C1206" value="100nF"/>
 <part name="CON1" library="lpatiny" deviceset="TINYISP" device="T" value="SPI"/>
 <part name="C10" library="rcl" deviceset="C-EU" device="C1206" value="10uF"/>
 <part name="D2" library="lpatiny" deviceset="1N581*" device="D1206" value="1N581D1206"/>
-<part name="LED4" library="adafruit" deviceset="LED" device="CHIPLED_1206" value="RED"/>
+<part name="5V-OK" library="adafruit" deviceset="LED" device="CHIPLED_1206" value="RED"/>
 <part name="RL4" library="resistor" deviceset="R-EU_" device="R0805" value="1K"/>
 <part name="D3" library="lpatiny" deviceset="1N581*" device="D1206" value="1N581D1206"/>
 <part name="U$7" library="MyPOW" deviceset="VUSB" device=""/>
@@ -12800,7 +12800,7 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/37793330023930AD620_e.pd
 <part name="R21" library="resistor" deviceset="R-EU_" device="R1206" value="4.7k"/>
 <part name="RL5" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
 <part name="GND21" library="supply2" deviceset="DGND" device=""/>
-<part name="LED1" library="adafruit" deviceset="LED" device="CHIPLED_1206" value="GREEN"/>
+<part name="BLINK" library="adafruit" deviceset="LED" device="CHIPLED_1206" value="GREEN"/>
 <part name="+5VA4" library="supply1" deviceset="+5V" device=""/>
 <part name="+5VA5" library="supply1" deviceset="+5V" device=""/>
 <part name="RL6" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
@@ -12832,7 +12832,7 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/37793330023930AD620_e.pd
 <part name="DGND13" library="supply2" deviceset="DGND" device="" value="DGND"/>
 <part name="AGND3" library="supply2" deviceset="AGND" device="" value="AGND"/>
 <part name="AGND4" library="supply2" deviceset="AGND" device="" value="AGND"/>
-<part name="C16" library="rcl" deviceset="C-EU" device="C1206" value="100uF"/>
+<part name="C16" library="rcl" deviceset="C-EU" device="C1206" value="100nF"/>
 <part name="L1" library="rcl" deviceset="L-US" device="L2012C" value="10uH"/>
 <part name="AGND6" library="supply2" deviceset="AGND" device="" value="AGND"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
@@ -12882,7 +12882,7 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/37793330023930AD620_e.pd
 <instance part="P+8" gate="1" x="40.64" y="284.48" rot="R90"/>
 <instance part="LED2" gate="G$1" x="58.42" y="266.7" rot="R270"/>
 <instance part="R25" gate="G$1" x="60.96" y="274.32" rot="R90"/>
-<instance part="LED3" gate="G$1" x="-71.12" y="274.32" rot="MR0"/>
+<instance part="3.3V-OK" gate="G$1" x="-71.12" y="274.32" rot="MR0"/>
 <instance part="R27" gate="G$1" x="-71.12" y="284.48" rot="MR90"/>
 <instance part="C5" gate="G$1" x="-114.3" y="292.1"/>
 <instance part="GND19" gate="1" x="-96.52" y="238.76" smashed="yes">
@@ -12917,7 +12917,7 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/37793330023930AD620_e.pd
 <instance part="LED8" gate="G$1" x="231.14" y="266.7" rot="R270"/>
 <instance part="R7" gate="G$1" x="233.68" y="279.4" rot="R90"/>
 <instance part="U$6" gate="G$1" x="2.54" y="286.004"/>
-<instance part="LED10" gate="G$1" x="-35.56" y="281.94" rot="MR90"/>
+<instance part="12V-OK" gate="G$1" x="-35.56" y="281.94" rot="MR90"/>
 <instance part="RL3" gate="G$1" x="-27.94" y="281.94" rot="MR180"/>
 <instance part="P+17" gate="1" x="-20.32" y="274.32" smashed="yes" rot="R180">
 <attribute name="VALUE" x="-22.225" y="274.32" size="1.27" layer="96" rot="R180"/>
@@ -12926,7 +12926,7 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/37793330023930AD620_e.pd
 <instance part="CON1" gate="G$1" x="215.9" y="160.02"/>
 <instance part="C10" gate="G$1" x="276.86" y="147.32"/>
 <instance part="D2" gate="G$1" x="248.92" y="162.56"/>
-<instance part="LED4" gate="G$1" x="302.26" y="147.32" rot="MR0"/>
+<instance part="5V-OK" gate="G$1" x="302.26" y="147.32" rot="MR0"/>
 <instance part="RL4" gate="G$1" x="294.64" y="149.86" rot="MR180"/>
 <instance part="D3" gate="G$1" x="248.92" y="149.86"/>
 <instance part="U$7" gate="G$1" x="238.76" y="144.78"/>
@@ -13027,7 +13027,7 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/37793330023930AD620_e.pd
 <instance part="GND21" gate="G$1" x="-2.54" y="259.08" smashed="yes">
 <attribute name="VALUE" x="-4.445" y="257.175" size="1.27" layer="96"/>
 </instance>
-<instance part="LED1" gate="G$1" x="10.16" y="256.54" rot="R180"/>
+<instance part="BLINK" gate="G$1" x="10.16" y="256.54" rot="R180"/>
 <instance part="+5VA4" gate="1" x="38.1" y="93.98"/>
 <instance part="+5VA5" gate="1" x="38.1" y="73.66"/>
 <instance part="RL6" gate="G$1" x="17.78" y="83.82" rot="MR180"/>
@@ -13403,7 +13403,7 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/37793330023930AD620_e.pd
 <segment>
 <wire x1="10.16" y1="261.62" x2="-2.54" y2="261.62" width="0.1524" layer="91"/>
 <pinref part="GND21" gate="G$1" pin="DGND"/>
-<pinref part="LED1" gate="G$1" pin="C"/>
+<pinref part="BLINK" gate="G$1" pin="C"/>
 <junction x="10.16" y="261.62"/>
 <junction x="-2.54" y="261.62"/>
 </segment>
@@ -13416,7 +13416,7 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/37793330023930AD620_e.pd
 <pinref part="C10" gate="G$1" pin="2"/>
 <wire x1="271.78" y1="142.24" x2="276.86" y2="142.24" width="0.1524" layer="91"/>
 <junction x="276.86" y="142.24"/>
-<pinref part="LED4" gate="G$1" pin="C"/>
+<pinref part="5V-OK" gate="G$1" pin="C"/>
 <wire x1="302.26" y1="142.24" x2="284.48" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="C12" gate="G$1" pin="1"/>
 <wire x1="284.48" y1="142.24" x2="276.86" y2="142.24" width="0.1524" layer="91"/>
@@ -13498,12 +13498,12 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/37793330023930AD620_e.pd
 <wire x1="0" y1="287.02" x2="-40.64" y2="287.02" width="0.1524" layer="91"/>
 <wire x1="-40.64" y1="281.94" x2="-40.64" y2="287.02" width="0.1524" layer="91"/>
 <pinref part="U$6" gate="G$1" pin="GND1"/>
-<pinref part="LED10" gate="G$1" pin="C"/>
+<pinref part="12V-OK" gate="G$1" pin="C"/>
 <pinref part="DGND15" gate="G$1" pin="DGND"/>
 <junction x="-40.64" y="287.02"/>
 </segment>
 <segment>
-<pinref part="LED3" gate="G$1" pin="C"/>
+<pinref part="3.3V-OK" gate="G$1" pin="C"/>
 <wire x1="-71.12" y1="269.24" x2="-71.12" y2="266.7" width="0.1524" layer="91"/>
 <pinref part="DGND14" gate="G$1" pin="DGND"/>
 </segment>
@@ -13940,7 +13940,7 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/37793330023930AD620_e.pd
 <segment>
 <wire x1="-71.12" y1="279.4" x2="-71.12" y2="276.86" width="0.1524" layer="91"/>
 <pinref part="R27" gate="G$1" pin="1"/>
-<pinref part="LED3" gate="G$1" pin="A"/>
+<pinref part="3.3V-OK" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -14011,7 +14011,7 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/37793330023930AD620_e.pd
 </net>
 <net name="N$75" class="0">
 <segment>
-<pinref part="LED10" gate="G$1" pin="A"/>
+<pinref part="12V-OK" gate="G$1" pin="A"/>
 <pinref part="RL3" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -14131,7 +14131,7 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/37793330023930AD620_e.pd
 <net name="N$12" class="0">
 <segment>
 <pinref part="RL4" gate="G$1" pin="2"/>
-<pinref part="LED4" gate="G$1" pin="A"/>
+<pinref part="5V-OK" gate="G$1" pin="A"/>
 <wire x1="299.72" y1="149.86" x2="302.26" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -14431,7 +14431,7 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/37793330023930AD620_e.pd
 <segment>
 <pinref part="RL5" gate="G$1" pin="2"/>
 <wire x1="10.16" y1="254" x2="0" y2="254" width="0.1524" layer="91"/>
-<pinref part="LED1" gate="G$1" pin="A"/>
+<pinref part="BLINK" gate="G$1" pin="A"/>
 <junction x="10.16" y="254"/>
 </segment>
 </net>
