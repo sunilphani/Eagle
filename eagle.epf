@@ -349,11 +349,17 @@ UsedLibrary="/Users/raffael/Desktop/Octanis/octanis-pcb/Octanis1-Electronics/lib
 UsedLibrary="Libraries/lomasenlibraries (3).lbr"
 
 [Win_1]
+Type="Control Panel"
+Loc="316 98 915 497"
+State=2
+Number=0
+
+[Win_2]
 Type="Schematic Editor"
 Loc="320 218 919 617"
 State=0
-Number=2
-File="PCB/IntegratedBertha/v1_1/integratedBertha.sch"
+Number=3
+File="Wiegand/Door locking pcb v1.2/Door locking pcb.sch"
 View="-154.026 -56.7944 689.966 353.974"
 WireWidths=" 0 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064 0.1524"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
@@ -395,19 +401,22 @@ PadsSameType=0
 Layer=91
 Sheet=1
 
-[Win_2]
-Type="Control Panel"
-Loc="455 84 1054 483"
-State=2
-Number=0
-
 [Win_3]
-Type="Board Editor"
-Loc="320 218 1548 948"
-State=1
+Type="Text Editor"
+Loc="320 218 819 717"
+State=2
 Number=1
-File="PCB/IntegratedBertha/v1_1/integratedBertha.brd"
-View="-40.5431 -4.20733 83.0044 91.6331"
+File="Wiegand/Door locking pcb v1.2/Door locking pcb.brd.rpt"
+CursorPos="0 0"
+Font="Courier,11,-1,5,50,0,0,0,0,0"
+
+[Win_4]
+Type="Board Editor"
+Loc="320 218 1516 932"
+State=1
+Number=2
+File="Wiegand/Door locking pcb v1.2/Door locking pcb.brd"
+View="-4.35513 -3.83975 120.774 61.9725"
 WireWidths=" 0 0.254 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
@@ -452,3 +461,4 @@ Screen="1280 800"
 Window="Win_1"
 Window="Win_2"
 Window="Win_3"
+Window="Win_4"
