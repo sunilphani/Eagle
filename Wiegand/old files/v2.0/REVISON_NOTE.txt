@@ -1,8 +1,0 @@
-
-
-v1.0 - first version
-
-v1.1
-Add a LED on port D23 (A5)
-Change +5V to +12V PWM
-Change +12V PWM to +12V
