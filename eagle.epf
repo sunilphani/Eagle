@@ -350,17 +350,17 @@ UsedLibrary="Libraries/lomasenlibraries (3).lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="316 98 915 497"
+Loc="121 95 720 494"
 State=2
 Number=0
 
 [Win_2]
 Type="Schematic Editor"
-Loc="320 218 919 617"
-State=0
-Number=3
-File="Wiegand/Door locking pcb v1.2/Door locking pcb.sch"
-View="-154.026 -56.7944 689.966 353.974"
+Loc="611 253 1837 999"
+State=1
+Number=1
+File="PCB/anemometer/v5/anemo5.sch"
+View="-17.6637 -26.9129 165.585 75.4133"
 WireWidths=" 0 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064 0.1524"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
@@ -399,24 +399,16 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=91
+Views=" 1: -17.6637 -26.9129 165.585 75.4133"
 Sheet=1
 
 [Win_3]
-Type="Text Editor"
-Loc="320 218 819 717"
-State=2
-Number=1
-File="Wiegand/Door locking pcb v1.2/Door locking pcb.brd.rpt"
-CursorPos="0 0"
-Font="Courier,11,-1,5,50,0,0,0,0,0"
-
-[Win_4]
 Type="Board Editor"
-Loc="320 218 1516 932"
+Loc="187 146 1349 841"
 State=1
 Number=2
-File="Wiegand/Door locking pcb v1.2/Door locking pcb.brd"
-View="-4.35513 -3.83975 120.774 61.9725"
+File="PCB/anemometer/v5/anemo5.brd"
+View="-35.48 1.22629 105.147 94.6554"
 WireWidths=" 0 0.254 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
@@ -461,4 +453,3 @@ Screen="1280 800"
 Window="Win_1"
 Window="Win_2"
 Window="Win_3"
-Window="Win_4"
