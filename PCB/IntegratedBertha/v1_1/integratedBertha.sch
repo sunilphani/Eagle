@@ -12656,15 +12656,15 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/37793330023930AD620_e.pd
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.3556" drill="0">
+<class number="0" name="default" width="0.3048" drill="0">
 </class>
 <class number="1" name="power" width="0.4572" drill="0">
 </class>
 <class number="2" name="VIN" width="0.4572" drill="0">
 </class>
-<class number="3" name="fine" width="0.3556" drill="0">
+<class number="3" name="fine" width="0.3048" drill="0">
 </class>
-<class number="4" name="aref" width="0.3556" drill="0">
+<class number="4" name="aref" width="0.3048" drill="0">
 </class>
 </classes>
 <parts>
