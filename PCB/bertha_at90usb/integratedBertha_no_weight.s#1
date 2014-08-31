@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -12806,7 +12806,7 @@ Source: http://www.molex.com/pdm_docs/sd/877580616_sd.pdf</description>
 <junction x="27.94" y="83.82"/>
 </segment>
 </net>
-<net name="XTAL1" class="0">
+<net name="N$14" class="0">
 <segment>
 <pinref part="X3" gate="G$1" pin="P$2"/>
 <pinref part="C2" gate="G$1" pin="2"/>
@@ -12817,7 +12817,7 @@ Source: http://www.molex.com/pdm_docs/sd/877580616_sd.pdf</description>
 <junction x="180.34" y="5.08"/>
 </segment>
 </net>
-<net name="XTAL2" class="0">
+<net name="N$39" class="0">
 <segment>
 <pinref part="X3" gate="G$1" pin="P$1"/>
 <pinref part="C8" gate="G$1" pin="2"/>
