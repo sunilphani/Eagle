@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="200" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -6195,27 +6195,6 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 </package>
 </packages>
 </library>
-<library name="transistor">
-<description>&lt;b&gt;Transistors&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="SOT23-BEC">
-<description>TO-236 ITT Intermetall</description>
-<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.127" layer="51"/>
-<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.127" layer="51"/>
-<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.127" layer="51"/>
-<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.127" layer="51"/>
-<smd name="C" x="0" y="1.1" dx="1" dy="1.4" layer="1"/>
-<smd name="E" x="0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
-<smd name="B" x="-0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
-<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.2286" y1="0.7112" x2="0.2286" y2="1.2954" layer="51"/>
-<rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
-<rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
-</package>
-</packages>
-</library>
 <library name="lpatiny">
 <packages>
 <package name="RJ12-STRAIGHT-I2C">
@@ -6399,6 +6378,27 @@ We've spent an enormous amount of time creating and checking these footprints an
 <smd name="C" x="1.5" y="0" dx="1.2" dy="1.4" layer="1"/>
 <text x="-0.889" y="1.397" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-1.016" y="-1.778" size="0.4064" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+</library>
+<library name="transistor">
+<description>&lt;b&gt;Transistors&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="SOT23-BEC">
+<description>TO-236 ITT Intermetall</description>
+<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.127" layer="51"/>
+<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.127" layer="51"/>
+<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.127" layer="51"/>
+<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.127" layer="51"/>
+<smd name="C" x="0" y="1.1" dx="1" dy="1.4" layer="1"/>
+<smd name="E" x="0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
+<smd name="B" x="-0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
+<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.2286" y1="0.7112" x2="0.2286" y2="1.2954" layer="51"/>
+<rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
+<rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
 </package>
 </packages>
 </library>
@@ -6642,10 +6642,6 @@ design rules under a new name.</description>
 <element name="CF2" library="rcl" package="C1206" value="330n" x="30.48" y="49.53" rot="R90"/>
 <element name="CF3" library="rcl" package="C1206" value="330n" x="52.07" y="49.53" rot="R90"/>
 <element name="CF4" library="rcl" package="C1206" value="330n" x="73.66" y="49.53" rot="R90"/>
-<element name="T1" library="transistor" package="SOT23-BEC" value="" x="8.89" y="53.34" rot="MR270"/>
-<element name="T2" library="transistor" package="SOT23-BEC" value="" x="30.48" y="53.34" rot="MR270"/>
-<element name="T3" library="transistor" package="SOT23-BEC" value="" x="52.07" y="53.34" rot="MR270"/>
-<element name="T4" library="transistor" package="SOT23-BEC" value="" x="73.66" y="53.34" rot="MR270"/>
 <element name="J1" library="lpatiny" package="RJ12-STRAIGHT-I2C" value="RJ12STRAIGHT-I2C" x="92.71" y="69.85" rot="MR270"/>
 <element name="DIV1" library="resistor" package="M1206" value="10k" x="43.18" y="64.77" rot="R270"/>
 <element name="DIV3" library="resistor" package="M1206" value="10k" x="46.99" y="64.77" rot="R270"/>
@@ -6723,7 +6719,7 @@ design rules under a new name.</description>
 <element name="IC6" library="linear" package="SO08" value="TL072D" x="63.5" y="69.215" rot="R270"/>
 <element name="J2" library="lpatiny" package="RJ12-STRAIGHT-I2C" value="RJ12STRAIGHT-I2C" x="7.62" y="69.85" rot="MR90"/>
 <element name="RL0" library="resistor" package="M1206" value="1K" x="74.9808" y="61.976" rot="R180"/>
-<element name="LED0" library="SparkFun" package="LED-1206" value="" x="85.344" y="60.2488"/>
+<element name="LED0" library="SparkFun" package="LED-1206" value="" x="86.106" y="60.4012" rot="MR180"/>
 <element name="FERRITE" library="rcl" package="L3216C" value="ferrite" x="67.945" y="76.835" smashed="yes" rot="R270">
 <attribute name="NAME" x="69.85" y="78.74" size="1.27" layer="25" rot="R270"/>
 <attribute name="VALUE" x="65.405" y="78.74" size="1.27" layer="27" rot="R270"/>
@@ -6744,6 +6740,10 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="76.835" y="70.485" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C6" library="rcl" package="C1206" value="100n" x="79.375" y="67.945" rot="R90"/>
+<element name="T1" library="transistor" package="SOT23-BEC" value="" x="0" y="-5.08"/>
+<element name="T2" library="transistor" package="SOT23-BEC" value="" x="0" y="-15.24"/>
+<element name="T3" library="transistor" package="SOT23-BEC" value="" x="0" y="-25.4"/>
+<element name="T4" library="transistor" package="SOT23-BEC" value="" x="0" y="-35.56"/>
 </elements>
 <signals>
 <signal name="N$1">
@@ -6874,30 +6874,30 @@ design rules under a new name.</description>
 <signal name="N$9">
 <contactref element="RUP1" pad="2"/>
 <contactref element="RUP2_1" pad="2"/>
-<contactref element="T1" pad="E"/>
+<contactref element="T1" pad="C"/>
 <wire x1="21.085" y1="41.275" x2="24.13" y2="43.05" width="0" layer="19" extent="1-1"/>
-<wire x1="9.99" y1="52.39" x2="21.085" y2="41.275" width="0" layer="19" extent="1-16"/>
+<wire x1="0" y1="-3.98" x2="21.085" y2="41.275" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$11">
 <contactref element="RUP2" pad="2"/>
 <contactref element="RUP2_2" pad="2"/>
-<contactref element="T2" pad="E"/>
+<contactref element="T2" pad="C"/>
 <wire x1="42.675" y1="40.64" x2="45.72" y2="43.05" width="0" layer="19" extent="1-1"/>
-<wire x1="31.58" y1="52.39" x2="42.675" y2="40.64" width="0" layer="19" extent="1-16"/>
+<wire x1="0" y1="-14.14" x2="42.675" y2="40.64" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$12">
 <contactref element="RUP3" pad="2"/>
 <contactref element="RUP2_3" pad="2"/>
-<contactref element="T3" pad="E"/>
+<contactref element="T3" pad="C"/>
 <wire x1="64.265" y1="40.64" x2="67.31" y2="43.05" width="0" layer="19" extent="1-1"/>
-<wire x1="53.17" y1="52.39" x2="64.265" y2="40.64" width="0" layer="19" extent="1-16"/>
+<wire x1="0" y1="-24.3" x2="64.265" y2="40.64" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$13">
 <contactref element="RUP4" pad="2"/>
 <contactref element="RUP2_4" pad="2"/>
-<contactref element="T4" pad="E"/>
+<contactref element="T4" pad="C"/>
 <wire x1="86.49" y1="41.275" x2="89.535" y2="43.05" width="0" layer="19" extent="1-1"/>
-<wire x1="74.76" y1="52.39" x2="86.49" y2="41.275" width="0" layer="19" extent="1-16"/>
+<wire x1="0" y1="-34.46" x2="86.49" y2="41.275" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$18">
 <contactref element="RF1" pad="2"/>
@@ -7095,7 +7095,7 @@ design rules under a new name.</description>
 <signal name="N$14">
 <contactref element="RL0" pad="1"/>
 <contactref element="LED0" pad="A"/>
-<wire x1="76.3808" y1="61.976" x2="83.844" y2="60.2488" width="0" layer="19" extent="1-1"/>
+<wire x1="76.3808" y1="61.976" x2="84.606" y2="60.4012" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND" class="1">
 <polygon width="0.6096" layer="16" isolate="0.3048" orphans="yes">
@@ -7155,8 +7155,8 @@ design rules under a new name.</description>
 <wire x1="75.565" y1="76.33" x2="79.375" y2="76.33" width="0" layer="19" extent="1-1"/>
 <wire x1="79.375" y1="69.345" x2="79.375" y2="76.33" width="0" layer="19" extent="1-1"/>
 <wire x1="75.565" y1="69.345" x2="79.375" y2="69.345" width="0" layer="19" extent="1-1"/>
-<wire x1="86.844" y1="60.2488" x2="79.375" y2="69.345" width="0" layer="19" extent="1-1"/>
-<wire x1="86.49" y1="53.34" x2="86.844" y2="60.2488" width="0" layer="19" extent="1-16"/>
+<wire x1="87.606" y1="60.4012" x2="79.375" y2="69.345" width="0" layer="19" extent="1-1"/>
+<wire x1="86.49" y1="53.34" x2="87.606" y2="60.4012" width="0" layer="19" extent="1-16"/>
 <wire x1="86.995" y1="50.74" x2="86.49" y2="53.34" width="0" layer="19" extent="1-16"/>
 <wire x1="63.5" y1="78.235" x2="75.565" y2="76.33" width="0" layer="19" extent="1-1"/>
 <wire x1="54.61" y1="76.33" x2="63.5" y2="78.235" width="0" layer="19" extent="1-1"/>
@@ -7224,52 +7224,52 @@ design rules under a new name.</description>
 <wire x1="88.9" y1="78.74" x2="88.9" y2="69.215" width="1.27" layer="16"/>
 </signal>
 <signal name="OUT1A">
-<contactref element="T1" pad="B"/>
 <contactref element="IC5" pad="1"/>
-<wire x1="9.99" y1="54.29" x2="15.815" y2="56.515" width="0" layer="19" extent="16-16"/>
+<contactref element="T1" pad="B"/>
+<wire x1="-0.95" y1="-6.18" x2="15.815" y2="56.515" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="OUT2A">
-<contactref element="T2" pad="B"/>
 <contactref element="IC5" pad="7"/>
-<wire x1="21.015" y1="57.785" x2="31.58" y2="54.29" width="0" layer="19" extent="16-16"/>
+<contactref element="T2" pad="B"/>
+<wire x1="-0.95" y1="-16.34" x2="21.015" y2="57.785" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="OUT3A">
-<contactref element="T3" pad="B"/>
 <contactref element="IC7" pad="1"/>
-<wire x1="53.17" y1="54.29" x2="58.995" y2="56.515" width="0" layer="19" extent="16-16"/>
+<contactref element="T3" pad="B"/>
+<wire x1="-0.95" y1="-26.5" x2="58.995" y2="56.515" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="OUT4A">
-<contactref element="T4" pad="B"/>
 <contactref element="IC7" pad="7"/>
-<wire x1="64.195" y1="57.785" x2="74.76" y2="54.29" width="0" layer="19" extent="16-16"/>
+<contactref element="T4" pad="B"/>
+<wire x1="-0.95" y1="-36.66" x2="64.195" y2="57.785" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$15" class="2">
-<contactref element="T1" pad="C"/>
 <contactref element="IC5" pad="2"/>
 <contactref element="RC1" pad="1"/>
+<contactref element="T1" pad="E"/>
 <wire x1="7.4676" y1="56.7406" x2="15.815" y2="57.785" width="0" layer="19" extent="16-16"/>
-<wire x1="7.79" y1="53.34" x2="7.4676" y2="56.7406" width="0" layer="19" extent="16-16"/>
+<wire x1="0.95" y1="-6.18" x2="7.4676" y2="56.7406" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$16" class="2">
-<contactref element="T2" pad="C"/>
 <contactref element="IC5" pad="6"/>
 <contactref element="RC2" pad="1"/>
-<wire x1="26.035" y1="53.21" x2="29.38" y2="53.34" width="0" layer="19" extent="16-16"/>
-<wire x1="21.015" y1="59.055" x2="26.035" y2="53.21" width="0" layer="19" extent="16-16"/>
+<contactref element="T2" pad="E"/>
+<wire x1="26.035" y1="53.21" x2="21.015" y2="59.055" width="0" layer="19" extent="16-16"/>
+<wire x1="0.95" y1="-16.34" x2="26.035" y2="53.21" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$17" class="2">
-<contactref element="T3" pad="C"/>
 <contactref element="IC7" pad="2"/>
 <contactref element="RC3" pad="1"/>
-<wire x1="50.97" y1="53.34" x2="58.995" y2="57.785" width="0" layer="19" extent="16-16"/>
-<wire x1="48.26" y1="53.21" x2="50.97" y2="53.34" width="0" layer="19" extent="16-16"/>
+<contactref element="T3" pad="E"/>
+<wire x1="48.26" y1="53.21" x2="58.995" y2="57.785" width="0" layer="19" extent="16-16"/>
+<wire x1="0.95" y1="-26.5" x2="48.26" y2="53.21" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$22" class="2">
-<contactref element="T4" pad="C"/>
 <contactref element="IC7" pad="6"/>
 <contactref element="RC4" pad="1"/>
-<wire x1="69.85" y1="53.21" x2="72.56" y2="53.34" width="0" layer="19" extent="16-16"/>
-<wire x1="64.195" y1="59.055" x2="69.85" y2="53.21" width="0" layer="19" extent="16-16"/>
+<contactref element="T4" pad="E"/>
+<wire x1="69.85" y1="53.21" x2="64.195" y2="59.055" width="0" layer="19" extent="16-16"/>
+<wire x1="0.95" y1="-36.66" x2="69.85" y2="53.21" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="REF_AD">
 <contactref element="IC6" pad="6"/>
